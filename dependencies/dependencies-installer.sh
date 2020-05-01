@@ -47,6 +47,7 @@ install_tunnel(){
               fi
               ;;
             "PowerTunnel" )
+              mkdir .bebasit
               if curl -L -o ~/.bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
                 echo "Sukses memasang PowerTunnel"
               else
@@ -68,6 +69,7 @@ install_tunnel(){
               ;;
             "PowerTunnel" )
               sudo pacman -S jre-openjdk
+              mkdir .bebasit
               if curl -L -o ~/.bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
                 echo "Sukses memasang PowerTunnel"
               else
@@ -108,6 +110,7 @@ install_tunnel(){
             brew tap caskroom/versions
             brew cask install java
           elif ! [[ -e ./bebasit/PowerTunnel.jar ]]; then
+            mkdir .bebasit
             if curl -L -o ./bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
               echo "Sukses memasang PowerTunnel"
             else
