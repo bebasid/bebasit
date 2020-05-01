@@ -47,7 +47,7 @@ install_tunnel(){
               fi
               ;;
             "PowerTunnel" )
-              if curl -o ~/.bebasid/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.10/PowerTunnel.jar; then
+              if curl -L -o ~/.bebasid/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
                 echo "Sukses memasang PowerTunnel"
               else
                 echo "Tidak dapat mengambil file PowerTunnel"
@@ -68,7 +68,7 @@ install_tunnel(){
               ;;
             "PowerTunnel" )
               sudo pacman -S jre-openjdk
-              if curl -o ~/.bebasid/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.10/PowerTunnel.jar; then
+              if curl -L -o ~/.bebasid/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
                 echo "Sukses memasang PowerTunnel"
               else
                 echo "Tidak dapat mengambil file PowerTunnel"
@@ -108,7 +108,7 @@ install_tunnel(){
             brew tap caskroom/versions
             brew cask install java
           elif ! [[ -e ./bebasit/PowerTunnel.jar ]]; then
-            if curl -o ./bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
+            if curl -L -o ./bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
               echo "Sukses memasang PowerTunnel"
             else
               echo "Tidak dapat mengambil file PowerTunnel"
