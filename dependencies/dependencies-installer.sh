@@ -68,7 +68,7 @@ install_tunnel(){
               ;;
             "PowerTunnel" )
               sudo pacman -S jre-openjdk
-              if sudo curl -o ~/.bebasid/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.10/PowerTunnel.jar; then
+              if curl -o ~/.bebasid/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.10/PowerTunnel.jar; then
                 echo "Sukses memasang PowerTunnel"
               else
                 echo "Tidak dapat mengambil file PowerTunnel"
