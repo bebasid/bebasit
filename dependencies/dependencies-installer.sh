@@ -47,7 +47,7 @@ install_tunnel(){
               fi
               ;;
             "PowerTunnel" )
-              if curl -L -o ~/.bebasid/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
+              if curl -L -o ~/.bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
                 echo "Sukses memasang PowerTunnel"
               else
                 echo "Tidak dapat mengambil file PowerTunnel"
@@ -68,7 +68,7 @@ install_tunnel(){
               ;;
             "PowerTunnel" )
               sudo pacman -S jre-openjdk
-              if curl -L -o ~/.bebasid/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
+              if curl -L -o ~/.bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
                 echo "Sukses memasang PowerTunnel"
               else
                 echo "Tidak dapat mengambil file PowerTunnel"
