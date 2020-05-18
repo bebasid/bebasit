@@ -1,0 +1,58 @@
+
+<html>
+  <head>
+  	<script type="text/javascript">
+      function urldecode(url) {return decodeURIComponent(url.replace(/\+/g, ' '));}
+      const bebasidAppURL = "https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh"
+      const bebasitPTURL = "https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar";
+      const bebasitPTGovTXT = "https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/goodbyedpi/blacklist.txt"
+      //const bebasitZapretURL ="";
+      const urlString = window.location.search;
+      const urlParams = new URLSearchParams(urlString);
+      const n = urlParams.get('n');
+      const empatNolEmpat = '%3Chead%3E%0D%0A%09%3Cmeta+http-equiv%3D%22Content-Type%22+content%3D%22text%2Fhtml%3B+charset%3Dutf-8%22%3E%0D%0A%09%3Ctitle%3EAPI+%7C+BEBASID%3C%2Ftitle%3E%0D%0A%09%3Cmeta+name%3D%22viewport%22+content%3D%22width%3Ddevice-width%2Cheight%3Ddevice-height%2Cinitial-scale%3D1.0%22%2F%3E%0D%0A%09%3Cmeta+name%3D%22description%22+content%3D%22BEBASID+API%22%3E%0D%0A%09%3Cmeta+name%3D%22author%22+content%3D%22haibara%22%3E%0D%0A%09%3Clink+rel%3D%22shortcut+icon%22+href%3D%22https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid%2Fraw%2Fmaster%2Fdev%2Fresources%2Flogo-black.png%22%3E%0D%0A%09%3Cstyle%3E%40font-face+%7B+font-family%3A+%27Source+Sans+Pro%27%3B+font-style%3A+normal%3B+font-weight%3A+200%3B+src%3A+local%28%27Source+Sans+Pro+ExtraLight%27%29%2C+local%28%27SourceSansPro-ExtraLight%27%29%2C+url%28https%3A%2F%2Ffonts.gstatic.com%2Fs%2Fsourcesanspro%2Fv13%2F6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf%29+format%28%27truetype%27%29%3B+%7D+%40font-face+%7B+font-family%3A+%27Source+Sans+Pro%27%3B+font-style%3A+normal%3B+font-weight%3A+300%3B+src%3A+local%28%27Source+Sans+Pro+Light%27%29%2C+local%28%27SourceSansPro-Light%27%29%2C+url%28https%3A%2F%2Ffonts.gstatic.com%2Fs%2Fsourcesanspro%2Fv13%2F6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf%29+format%28%27truetype%27%29%3B+%7D+%2A+%7B+box-sizing%3A+border-box%3B+margin%3A+0%3B+padding%3A+0%3B+font-weight%3A+300%3B+%7D+body+%7B+font-family%3A+%27Source+Sans+Pro%27%2C+sans-serif%3B+color%3A+white%3B+font-weight%3A+300%3B+content%3A+%22%22%3B+position%3A+fixed%3B+left%3A+0%3B+top%3A+0%3B+width%3A+100%25%3B+height%3A+100%25%3B+z-index%3A+-10%3B+%7D+body+%3A%3A-webkit-input-placeholder+%7B+%2F%2A+WebKit+browsers+%2A%2F+font-family%3A+%27Source+Sans+Pro%27%2C+sans-serif%3B+color%3A+white%3B+font-weight%3A+300%3B+%7D+body+%3A-moz-placeholder+%7B+%2F%2A+Mozilla+Firefox+4+to+18+%2A%2F+font-family%3A+%27Source+Sans+Pro%27%2C+sans-serif%3B+color%3A+white%3B+opacity%3A+1%3B+font-weight%3A+300%3B+%7D+body+%3A%3A-moz-placeholder+%7B+%2F%2A+Mozilla+Firefox+19%2B+%2A%2F+font-family%3A+%27Source+Sans+Pro%27%2C+sans-serif%3B+color%3A+white%3B+opacity%3A+1%3B+font-weight%3A+300%3B+%7D+body+%3A-ms-input-placeholder+%7B+%2F%2A+Internet+Explorer+10%2B+%2A%2F+font-family%3A+%27Source+Sans+Pro%27%2C+sans-serif%3B+color%3A+white%3B+font-weight%3A+300%3B+%7D+.weraaaaa+%7B+background%3A+%2350a3a2%3B+background%3A+linear-gradient%28to+bottom+right%2C+rgba%2880%2C+163%2C+162%2C0.8%29+0%25%2C+rgba%2883%2C+227%2C+166%2C0.8%29+100%25%29%3B+position%3A+absolute%3B+left%3A+0%3B+width%3A+100%25%3B+height%3A+100%25%3B+%7D+.wrapper+%7B+position%3A+absolute%3B+top%3A+50%25%3B+left%3A+0%3B+width%3A+100%25%3B+height%3A+400px%3B+margin-top%3A+-200px%3B+overflow%3A+hidden%3B+%7D+.wrapper.form-success+.container+h1+%7B+-webkit-transform%3A+translateY%2885px%29%3B+transform%3A+translateY%2885px%29%3B+%7D+.container+%7B+top%3A+50%25%3B+max-width%3A+600px%3B+margin%3A+0+auto%3B+padding%3A+80px+0%3B+height%3A+400px%3B+text-align%3A+center%3B+%7D+.container+h1+%7B+font-size%3A+40px%3B+transition-duration%3A+1s%3B+transition-timing-function%3A+ease-in-put%3B+font-weight%3A+200%3B+%7D+.bg-bubbles+%7B+position%3A+absolute%3B+top%3A+0%3B+left%3A+0%3B+width%3A+100%25%3B+height%3A+100%25%3B+z-index%3A+1%3B+%7D+.bg-bubbles+li+%7B+position%3A+absolute%3B+list-style%3A+none%3B+display%3A+block%3B+width%3A+40px%3B+height%3A+40px%3B+background-color%3A+rgba%28255%2C+255%2C+255%2C+0.15%29%3B+bottom%3A+-160px%3B+-webkit-animation%3A+square+25s+infinite%3B+animation%3A+square+25s+infinite%3B+transition-timing-function%3A+linear%3B+%7D+.bg-bubbles+li%3Anth-child%281%29+%7B+left%3A+10%25%3B+%7D+.bg-bubbles+li%3Anth-child%282%29+%7B+left%3A+20%25%3B+width%3A+80px%3B+height%3A+80px%3B+-webkit-animation-delay%3A+2s%3B+animation-delay%3A+2s%3B+-webkit-animation-duration%3A+17s%3B+animation-duration%3A+17s%3B+%7D+.bg-bubbles+li%3Anth-child%283%29+%7B+left%3A+25%25%3B+-webkit-animation-delay%3A+4s%3B+animation-delay%3A+4s%3B+%7D+.bg-bubbles+li%3Anth-child%284%29+%7B+left%3A+40%25%3B+width%3A+60px%3B+height%3A+60px%3B+-webkit-animation-duration%3A+22s%3B+animation-duration%3A+22s%3B+background-color%3A+rgba%28255%2C+255%2C+255%2C+0.25%29%3B+%7D+.bg-bubbles+li%3Anth-child%285%29+%7B+left%3A+70%25%3B+%7D+.bg-bubbles+li%3Anth-child%286%29+%7B+left%3A+80%25%3B+width%3A+120px%3B+height%3A+120px%3B+-webkit-animation-delay%3A+3s%3B+animation-delay%3A+3s%3B+background-color%3A+rgba%28255%2C+255%2C+255%2C+0.2%29%3B+%7D+.bg-bubbles+li%3Anth-child%287%29+%7B+left%3A+32%25%3B+width%3A+160px%3B+height%3A+160px%3B+-webkit-animation-delay%3A+7s%3B+animation-delay%3A+7s%3B+%7D+.bg-bubbles+li%3Anth-child%288%29+%7B+left%3A+55%25%3B+width%3A+20px%3B+height%3A+20px%3B+-webkit-animation-delay%3A+15s%3B+animation-delay%3A+15s%3B+-webkit-animation-duration%3A+40s%3B+animation-duration%3A+40s%3B+%7D+.bg-bubbles+li%3Anth-child%289%29+%7B+left%3A+25%25%3B+width%3A+10px%3B+height%3A+10px%3B+-webkit-animation-delay%3A+2s%3B+animation-delay%3A+2s%3B+-webkit-animation-duration%3A+40s%3B+animation-duration%3A+40s%3B+background-color%3A+rgba%28255%2C+255%2C+255%2C+0.3%29%3B+%7D+.bg-bubbles+li%3Anth-child%2810%29+%7B+left%3A+90%25%3B+width%3A+160px%3B+height%3A+160px%3B+-webkit-animation-delay%3A+11s%3B+animation-delay%3A+11s%3B+%7D+%40-webkit-keyframes+square+%7B+0%25+%7B+-webkit-transform%3A+translateY%280%29%3B+transform%3A+translateY%280%29%3B+%7D+100%25+%7B+-webkit-transform%3A+translateY%28-700px%29+rotate%28600deg%29%3B+transform%3A+translateY%28-700px%29+rotate%28600deg%29%3B+%7D+%7D+%40keyframes+square+%7B+0%25+%7B+-webkit-transform%3A+translateY%280%29%3B+transform%3A+translateY%280%29%3B+%7D+100%25+%7B+-webkit-transform%3A+translateY%28-700px%29+rotate%28600deg%29%3B+transform%3A+translateY%28-700px%29+rotate%28600deg%29%3B++%7D+%7D+img+%7Bmax-width%3A+100%25%3Bmax-height%3A+100%25%3Bheight%3A+100px%3Bwidth%3A+100px%3B%7D%3C%2Fstyle%3E%0D%0A%0D%0A%09%3Cbody+style%3D%22background%3A+url%28https%3A%2F%2Foverdodactyl.github.io%2FShadowFox%2FGcP71BP-min.c5cef7fa.png%29+no-repeat+center+center%3B+-webkit-background-size%3A+cover%3B+-moz-background-size%3A+cover%3B+-o-background-size%3A+cover%3B+background-size%3A+cover%3B%22%3E%0D%0A++++%3Cdiv+id%3D%22body%22%3E%0D%0A++++%3Cdiv+class%3D%22weraaaaa%22+style%3D%22background%3A+%23d2d2cf%3B+background%3A+linear-gradient%28to+bottom+right%2C+rgba%28126%2C+126%2C+124%2C0.8%29+0%25%2C+rgba%28105%2C+105%2C+103%2C0.8%29+100%25%29%3B%22%3E%0D%0A++++++++%3Cdiv+class%3D%22wrapper%22%3E%0D%0A%09%3Cdiv+class%3D%22container%22%3E%0D%0A%09++++%3Cdiv%3E%3Ciframe+allow%3D%22accelerometer%3B+autoplay%3B+encrypted-media%3B+gyroscope%3B+picture-in-picture%22+allowfullscreen%3D%22%22+frameborder%3D%220%22+height%3D%220%22+src%3D%22https%3A%2F%2Fwww.youtube.com%2Fembed%2FRF12r7uiV5s%3Frel%3D0%26amp%3Bautoplay%3D1%22+width%3D%220%22%3E%3C%2Fiframe%3E%3C%2Fdiv%3E%0D%0A%09++++%3Cimg+src%3D%22https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid%2Fraw%2Fmaster%2Fdev%2Fresources%2Flogo.png%22%2F%3E%0D%0A%09++++%3Cbr%3E%3Cbr%3E%0D%0A%09%09%3Ch1%3EBEBASID+API%3C%2Fh1%3E%0D%0A%09%09%3Cbr%3E%0D%0A%09%09%3Ch3%3Eby+Komunitas+Internet+Netral+Indonesia%3C%2Fh3%3E%0D%0A%09%3C%2Fdiv%3E%0D%0A%09%3C%2Fdiv%3E%0D%0A%09%3Cul+class%3D%22bg-bubbles%22%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%09%3Cli%3E%3C%2Fli%3E%0D%0A%09%3C%2Ful%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fbody%3E';
+      if (n !== null) {
+      	switch(n){
+	      	case '1': var dnsResult = "https://doh.dnslify.com/dns-query"; break;
+	      	case '2': var dnsResult = "https://dns.google.com/dns-query"; break;
+	      	case '3': var dnsResult = "https://1dot1dot1dot1.cloudflare-dns.com/dns-query"; break;
+	      	case '4': var dnsResult = "https://doh.tiarap.org/dns-query"; break;
+	      	case '5': var dnsResult = "https://dns.adguard.com/dns-query"; break;
+	      	case '6': var dnsResult = "https://doh.securedns.eu/dns-query"; break;
+	      	case '7': var dnsResult = "https://doh-de.blahdns.com/dns-query"; break;
+	      	case '8': var dnsResult = "https://ibksturm.synology.me/dns-query"; break;
+	      	case '9': var dnsResult = "https://doh.cleanbrowsing.org/doh/security-filter"; break;
+	      	case '10': var dnsResult = ""; break;
+	      	default: break;
+      	}
+      }
+      if (urlParams.get('get') !== null) {
+	      switch (urlParams.get('get')){
+	      	case 'dns':
+	      		if (urlParams.get('dns') !== null) {
+		      		switch (urlParams.get('dns')){
+		      		case 'gt': document.write(dnsResult); break;
+		      		case 'pt': var dnsResult = dnsResult + "/"; document.write(dnsResult); break;
+		      		default: document.write(urldecode(empatNolEmpat)); break;
+		      		break;
+		      	}
+	      	}
+	      	case 'url':
+	      		if (urlParams.get('url') !== null) {
+		      		switch (urlParams.get('url')){
+		      			case 'bebasid-app': document.write(bebasidAppURL); break;
+		      			case 'bebasit-pt': document.write(bebasitPTURL); break;
+                case 'bebasid-pt-txt': document.write(bebasitPTURL); break
+		      			//case 'bebasid-zp': document.write(bebasitZapretURL); break;
+		      			default: document.write(urldecode(empatNolEmpat)); break;
+		      		}
+	      		}
+	      	break;
+	      	default: document.write(urldecode(empatNolEmpat)); break;
+	      }
+      }else{
+      	document.write(urldecode(empatNolEmpat));
+      }
+    </script>
+  </head>
+  </html>
