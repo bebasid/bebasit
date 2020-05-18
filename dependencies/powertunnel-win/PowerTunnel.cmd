@@ -1,2 +1,0 @@
-@ECHO off
-java -jar %ConEmuBaseDir%\..\PowerTunnel.jar -start -console -government-blacklist-from https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/goodbyedpi/blacklist.txt -use-doh-resolver https://doh.tiarap.org/dns-query/ -ip 127.0.0.1 -port 6151 -debug -disable-auto-proxy-setup
