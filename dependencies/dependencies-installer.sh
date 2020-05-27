@@ -38,7 +38,7 @@ install_tunnel(){
           fi
           case $1 in
             "Green Tunnel" )
-              if ! [[ -x $(command -v node) ]]; then
+              if ! [[ -x $(command -v gt) ]]; then
                 curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
                 sudo bash nodesource_setup.sh
                 sudo rm -rf nodesource_setup.sh
@@ -62,7 +62,7 @@ install_tunnel(){
           sudo pacman -S tmux curl
           case $1 in
             "Green Tunnel" )
-              if ! [[ -x $(command -v npm) ]]; then
+              if ! [[ -x $(command -v gt) ]]; then
                 sudo pacman -S npm
                 sudo npm i -g green-tunnel
               fi
@@ -95,7 +95,7 @@ install_tunnel(){
       fi
       case $1 in
         "Green Tunnel" )
-          if ! [[ -x $(command -v node) ]]; then
+          if ! [[ -x $(command -v gt) ]]; then
             loadin 0.01 "Memulai pemasangan NodeJS dan NPM"
             brew install node
             loadin 0.01 "Memulai pemasangan Green Tunnel"
