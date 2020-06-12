@@ -105,11 +105,11 @@ install_tunnel(){
           echo "INSTALASI BERHASIL"
           ;;
         "PowerTunnel" )
-          if ! [[ -x $(command -v java) ]]; then
+          #if ! [[ -x $(command -v java) ]]; then
             brew tap caskroom/cask
             brew tap caskroom/versions
             brew cask install java
-          elif ! [[ -e ~/.bebasit/PowerTunnel.jar ]]; then
+          if ! [[ -e ~/.bebasit/PowerTunnel.jar ]]; then
             mkdir .bebasit
             if curl -L -o ~/.bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
               echo "Sukses memasang PowerTunnel"
