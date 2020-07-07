@@ -39,7 +39,7 @@ uninstall_tunnel(){
           confirm "-x $(command -v tmux)" "Tmux" "sudo apt -y remove tmux"
           case $1 in
             "Green Tunnel" )
-              confirm "-x $(command -v gt)" "Green Tunnel" "nmp un -g gt"
+              confirm "-x $(command -v gt)" "Green Tunnel" "npm un -g gt"
               sudo rm -rf /usr/bin/gt
               ;;
             "PowerTunnel" )
@@ -66,14 +66,14 @@ uninstall_tunnel(){
       echo "Script ini hanya work untuk MacOS High Sierra hingga yang terbaru"
       echo "Akan mencopot : $1, Tmux, dan Java (untuk PowerTunnel)"
       echo "Tunnel yang akan dipasang : $1"
-      read -p "Apakah anda yakin ingin melanjutkan pemasangan (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+      read -p "Apakah anda yakin ingin melanjutkan pencopotan (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
       case $1 in
         "Green Tunnel" )
-          confirm "-x $(command -v gt)" "Green Tunnel" "npm u -g gt"
+          confirm "-x $(command -v gt)" "Green Tunnel" "npm un -g gt"
           sudo rm -rf /usr/bin/gt
           ;;
         "PowerTunnel" )
-          confirm "-e ~/.bebasit" "PowerTunnel" "rm -rf ~/.bebasit"
+          confirm "-e ~/.bebasit" "PowerTunnel" "sudo rm -rf ~/.bebasit"
           confirm "-x $(command -v java)" "Java" "brew uninstall java"
       esac
       ;;
