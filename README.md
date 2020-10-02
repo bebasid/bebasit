@@ -4,6 +4,7 @@ bebasit adalah repo turunan bebasid yang berisikan aplikasi untuk keperluan pene
 Berikut ini adalah daftar aplikasi yang sudah diuji dalam kemampuan menembus DPI.
 ### Windows
 - GoodbyeDPI.
+- PowerTunell (JRE).
 ### Linux
 - Green Tunnel (NodeJS + NPM).
 - PowerTunnel (JRE).
