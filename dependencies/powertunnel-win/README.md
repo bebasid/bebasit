@@ -8,7 +8,7 @@ Memudahkan penggunaan PowerTunnel tanpa harus mengatur proksi secara manual
 - [Java Runtime Environment](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel)
 - [ConEmu](https://conemu.github.io/)
-- [Google Chrome]
+- [Google Chrome](https://www.google.com/chrome/)
 
 ## Tutorial
 1. Unduh aplikasi bebasit-pt [disini](https://github.com/bebasid/bebasit/releases/download/v0.0.1/bebasit-pt.zip)
