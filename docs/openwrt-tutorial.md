@@ -46,6 +46,7 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
      Contohnya seperti ini:<br>
      ![image](https://user-images.githubusercontent.com/115700386/232384543-1a87981d-2186-45d1-b056-9b2a5ed146c9.png)<br>
      <sup>Contoh menggunakan DNS dari BebasID dengan alt-port 1753</sup><br>
+     <p align="center"><sup><b>Untuk pengguna Moratel/Oxygen, jangan menggunakan alt-port 5353 karena Moratel memblokir port tersebut. Gunakan DNS yang mempunyai alternatif port selain 5353 jika anda memakainya</b></sup></p>
    - Lalu klik + dan Save & Apply
 - <b>Menggunakan DNS-over-HTTPS</b><br>
 - <b>Menggunakan DNS-over-TLS (Stubby)</b><br>
