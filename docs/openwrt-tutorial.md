@@ -16,7 +16,7 @@
 5. Jalankan perintah ```git clone https://github.com/bol-van/zapret.git``` dan tunggu sampai selesai<br>
 
 ### Bypass DNS Nasional
-Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-content/uploads/2015/05/slack_for_ios_upload_1024.png">DNS Nasional</a> yang dimana setiap ISP wajib membelokan Port 53 ke server ISP masing-masin dan probing tehnik bypassnya Zapret akan menggunakan resolve DNS, kita harus membypass DNS ISP terlebih dahulu sebelum melakukan proses installasi Zapret
+Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-content/uploads/2015/05/slack_for_ios_upload_1024.png">DNS Nasional</a> yang dimana setiap ISP wajib membelokan Port 53 ke server ISP masing-masing dan probing tehnik bypassnya Zapret akan menggunakan resolve DNS dari OpenWRT kita, kita harus membypass DNS ISP terlebih dahulu sebelum melakukan proses installasi Zapret
 
 <b>Ada 4 cara untuk bypass:</b><br>
 - <b>Menggunakan host BebasID</b><br>
