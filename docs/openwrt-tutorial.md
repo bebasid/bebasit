@@ -109,5 +109,5 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
     NFQWS_OPT_DESYNC_HTTP6=--hostcase
     NFQWS_OPT_DESYNC_HTTPS6=--dpi-desync=split2
     ```
-12. Lalu, save hasilnya dan restart Zapret dengan mengetikan `service zapret restart`
+12. Lalu, save hasilnya dan nyalakan Zapret dengan mengetikan `service zapret start`
 13. Jangan lupa enable iptables dan zapret dengan mengetikan `service zapret enable` dan `service iptables enable` agar servicenya berjalan saat startup
