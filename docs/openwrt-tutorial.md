@@ -38,7 +38,7 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
      ![image](https://user-images.githubusercontent.com/115700386/232383389-329fceba-d178-4ca7-88b7-448c7c5dcc19.png)
    - Pergi ke <b>Advanced Settings</b> dan uncheck opsi `Use DNS servers advertised by peer`
      ![image](https://user-images.githubusercontent.com/115700386/232383541-96bba9e0-712a-415f-bdde-ffcdc3a6408c.png)
-   - Setting DNS ke 127.0.0.1
+   - Setting DNS ke 127.0.0.1 dan klik +
    - Lalu Save dan Apply
    - Setelah itu, pergi ke <b>Network >> DHCP and DNS</b><br>
      ![image](https://user-images.githubusercontent.com/115700386/232383622-711dde04-c1b9-4099-8101-3234084c22fc.png)
@@ -96,11 +96,12 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
 10. Edit Config nya dengan mengetikan `nano /opt/zapret/config`
 11. Cari bagian ini di confignya dan replace dengan config yang sesuai pada gambar yang anda dapat tadi
     ```
-    NFQWS_OPT_DESYNC_HTTP=
-    NFQWS_OPT_DESYNC_HTTPS=
-    NFQWS_OPT_DESYNC_HTTP6=
-    NFQWS_OPT_DESYNC_HTTPS6=
+    #NFQWS_OPT_DESYNC_HTTP=
+    #NFQWS_OPT_DESYNC_HTTPS=
+    #NFQWS_OPT_DESYNC_HTTP6=
+    #NFQWS_OPT_DESYNC_HTTPS6=
     ```
+    Hilangkan # pada NFQWS<br>
     Untuk curl_test_https_tls12, isi di bagian HTTPS dan HTTPS6 (Tulis setelah huruf nfqws di hasil tadi)<br>
     Dan, untuk curl_test_http, isi di bagian HTTP dan HTTP6 (Tulis setelah huruf nfqws di hasil tadi)<br><br>
     <b>Sebagai Contoh:</b> (Jangan ikuti ini melainkan sesuaikan dengan apa yang anda dapat)
