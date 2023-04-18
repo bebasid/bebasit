@@ -61,9 +61,28 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
    - Catat port yang digunakan<br>
      ![image](https://user-images.githubusercontent.com/115700386/232676399-e662ed62-eb88-42c7-a278-aa6ee7a32136.png)<br>
       <sup>Nanti akan digunakan di konfigurasi DNS</sup>
-   - Untuk mengganti atau menambah DNS provider, silahkan ganti bagian `address-data:` dan `tls_auth_name:`<br>
+   - Jika anda mau mengganti atau DNS provider default (Cloudflare 1.1.1.1), silahkan ganti bagian `address-data:` dan `tls_auth_name:`<br>
      ![image](https://user-images.githubusercontent.com/115700386/232677110-6173b9cc-2568-4d9a-800f-8488e8fd0435.png)<br>
-   - Under Construction
+     Seperti Contoh, untuk mengganti ke DNS-over-TLS milik BebasID:<br>
+     ![image](https://user-images.githubusercontent.com/115700386/232692104-7ca5eda9-1ad4-4d27-9e8d-ec2f3c2e379e.png)<br>
+   - Save hasilnya lalu jalankan perintah `nano /etc/config/stubby`
+   - Ubah `option manual '0'` menjadi `option manual '1'` lalu save<br>
+     ![image](https://user-images.githubusercontent.com/115700386/232694974-294f09e0-0f3f-434a-af28-777f009c3593.png)
+   - Jalankan perintah `service stubby restart` dan `service stubby enable`
+   - Setelah itu, login ke OpenWRT melalui Web Interface
+   - Pergi ke <b>Network >> Interfaces</b> dan Edit WAN (atau apapun interface sumber internet kalian)
+     ![image](https://user-images.githubusercontent.com/115700386/232383389-329fceba-d178-4ca7-88b7-448c7c5dcc19.png)
+   - Pergi ke <b>Advanced Settings</b> dan uncheck opsi `Use DNS servers advertised by peer`
+     ![image](https://user-images.githubusercontent.com/115700386/232383541-96bba9e0-712a-415f-bdde-ffcdc3a6408c.png)
+   - Setting DNS ke 127.0.0.1 dan klik +
+   - Lalu Save dan Apply
+   - Pergi ke <b>Network >> DHCP and DNS</b><br>
+     ![image](https://user-images.githubusercontent.com/115700386/232383622-711dde04-c1b9-4099-8101-3234084c22fc.png)
+   - Dibagian DNS Forwarding, silahkan isi DNS dengan hasil settingan tadi `127.0.0.1#5453`
+     ![image](https://user-images.githubusercontent.com/115700386/232693231-9a1f0c02-df3e-4383-9fc3-a830945fb1bf.png)
+  - Klik + dan <b>Save and Apply</b>
+  - Check dengan melakukan nslookup ke domain yang diblokir Kominfo (Mis: `nslookup reddit.com`) Pastikan tidak muncul IP internet positif<br>
+    ![image](https://user-images.githubusercontent.com/115700386/232694308-b934f8e4-31d3-4922-99be-30b4ca1adaa5.png)<br>   
 - <b>Menggunakan DNS-over-HTTPS</b><br>
 <p align="center"><b>( TO BE CONTINUED... )</b></p>
 
