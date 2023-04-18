@@ -48,8 +48,23 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
      <sup>Contoh menggunakan DNS dari BebasID dengan alt-port 1753</sup><br>
      <p align="center"><sup><b>Untuk pengguna Moratel/Oxygen, jangan menggunakan alt-port 5353 karena Moratel memblokir port tersebut. Gunakan DNS yang mempunyai alternatif port selain 5353 jika anda memakainya</b></sup></p>
    - Lalu klik + dan Save & Apply
-- <b>Menggunakan DNS-over-HTTPS</b><br>
 - <b>Menggunakan DNS-over-TLS (Stubby)</b><br>
+   - Sebelum anda menggunakan DoT di OpenWRT, pastikan port 853 tidak terblokir oleh ISP
+   - Cek dengan menjalankan perintah `curl -v portquiz.net:853` di terminal<br>
+     <p align="center">
+     <img src="https://user-images.githubusercontent.com/115700386/232675750-9c30e527-7ce9-4f04-acfc-db092894a346.png"><br>
+     <sup>Pastikan muncul tulisan <b>`Port test successful!`</b><br>Jika tidak, silahkan pakai cara lain seperti memakai hosts, alt port, dan DoH</p>
+   - Jika tes berhasil, jalankan command `opkg update` di terminal
+   - Lalu jalankan command `opkg install stubby` dan tunggu sampai selesai<br>
+     ![image](https://user-images.githubusercontent.com/115700386/232675427-8aa0b7b5-e498-4e9c-8c6d-7c8d40f4e505.png)<br>
+   - Jalankan command `nano /etc/stubby/stubby.yml` untuk mengedit config Stubby
+   - Catat port yang digunakan<br>
+     ![image](https://user-images.githubusercontent.com/115700386/232676399-e662ed62-eb88-42c7-a278-aa6ee7a32136.png)<br>
+      <sup>Nanti akan digunakan di konfigurasi DNS</sup>
+   - Untuk mengganti atau menambah DNS provider, silahkan ganti bagian `address-data:` dan `tls_auth_name:`<br>
+     ![image](https://user-images.githubusercontent.com/115700386/232677110-6173b9cc-2568-4d9a-800f-8488e8fd0435.png)<br>
+   - Under Construction
+- <b>Menggunakan DNS-over-HTTPS</b><br>
 <p align="center"><b>( TO BE CONTINUED... )</b></p>
 
 ### Installasi Zapret
@@ -71,8 +86,7 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
 7.  Pastikan enable HTTP support, HTTPS support di enablekan dengan pilih `Y` pada saat proses instalasi <br>
     ![image](https://user-images.githubusercontent.com/115700386/232266856-6abfb4da-e52a-41a9-a720-ae71e2ed293a.png)<br>
 8.  Setelah itu klik Enter sampai selesai
-9.  Hapus folder Zapret di /tmp untuk menyimpan memory<br>
-    
+9.  Hapus folder Zapret di /tmp untuk menyimpan memory dengan cara pergi ke `cd /tmp` dan jalankan `rm zapret -r`<br>
 
 ### Konfigurasi Zapret
 1.  Pergi ke folder `cd /opt/zapret/` dan jalankan script `./install_bin.sh`
