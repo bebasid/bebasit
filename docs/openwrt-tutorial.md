@@ -68,7 +68,7 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
 <p align="center"><b>( TO BE CONTINUED... )</b></p>
 
 ### Installasi Zapret
-1.  Setelah selesai menjalankan perintah <i>git clone</i> di terminal, silahkan navigasi ke /tmp/zapret dengan mengetikan ```cd /tmp/zapret``` di terminal<br>
+1.  Setelah selesai menjalankan perintah <i>git clone</i> di terminal dan membypass DNS Nasional / DNS ISP, silahkan navigasi ke /tmp/zapret dengan mengetikan ```cd /tmp/zapret``` di terminal<br>
 2.  Jalankan ```./install-easy.sh``` di Terminal
 3.  Jika muncul pesan 
     ```
