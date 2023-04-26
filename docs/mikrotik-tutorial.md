@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://user-images.githubusercontent.com/115700386/232264116-5cef4e89-92c9-4548-b392-fc82e02747e3.png](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/MikroTik_logo.svg/512px-MikroTik_logo.svg.png)" width="600px">
+  <img src="https://user-images.githubusercontent.com/115700386/234646779-cf6c4264-4e8d-4aba-aa19-40f088b3e825.png" width="300px" height="80px">
 </p>
 
 <h1 align="center">TUTORIAL BYPASS DPI KOMINFO MENGGUNAKAN MIKROTIK</h1>
