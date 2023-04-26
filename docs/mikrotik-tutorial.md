@@ -5,7 +5,8 @@
 <h1 align="center">TUTORIAL BYPASS DPI KOMINFO MENGGUNAKAN MIKROTIK</h1>
 
 <p align="center">
-  <b><sup>Following this instruction is in your own risk. I'm not responsible for content you are trying to access after following this tutorial or the damage you done during the installation process. Please use it wisely and follow the instruction carefully</sup></b>
+  <b><sup>Following this instruction is in your own risk. I'm not responsible for content you are trying to access after following this tutorial or the damage you done during the installation process. Please use it wisely and follow the instruction carefully</sup></b><br><br>
+  <b>This method doesn't work on Biznet, Telkomsel, Iconnet, and XL because how strong their DPI implementation is</b>
 </p>
 
 ### Langkah-langkah
@@ -13,7 +14,7 @@
 1. Login ke RouterOS anda dan buka Terminal
 2. Jalankan perintah ini:
 ```
-# Script by BebasID Communnity
+# Script by BebasID Community
 
 /ip firewall address-list 
 add list=blokir_kominfo comment="BebasIT | REDDIT" address=151.101.193.140
@@ -28,7 +29,7 @@ add list=blokir_kominfo comment="BebasIT | VIMEO" address=162.159.128.61
 ```
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward src-address-list=blokir_kominfo protocol=tcp in-interface=[INTERFACE WAN ANDA] tcp-flags=rst,ack action=drop
 ```
-<b>Ganti [INTERFACE WAN ANDA] dengan interface sumber internet anda seperti contoh dibawah ini</b>
+<b>Ganti [INTERFACE WAN ANDA] dengan interface sumber internet anda seperti contoh dibawah ini:</b>
 ```
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward src-address-list=blokir_kominfo protocol=tcp in-interface=ether1 tcp-flags=rst,ack action=drop
 ```
