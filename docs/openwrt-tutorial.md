@@ -139,10 +139,59 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
     Dan, untuk curl_test_http, isi di bagian HTTP dan HTTP6 (Tulis setelah huruf nfqws di hasil tadi)<br><br>
     <b>Sebagai Contoh:</b> (Jangan ikuti ini melainkan sesuaikan dengan apa yang anda dapat)
     ```
-    NFQWS_OPT_DESYNC_HTTP=--hostcase
-    NFQWS_OPT_DESYNC_HTTPS=--dpi-desync=split2
-    NFQWS_OPT_DESYNC_HTTP6=--hostcase
-    NFQWS_OPT_DESYNC_HTTPS6=--dpi-desync=split2
+    NFQWS_OPT_DESYNC_HTTP="--hostcase"
+    NFQWS_OPT_DESYNC_HTTPS="--dpi-desync=split2"
+    NFQWS_OPT_DESYNC_HTTP6="--hostcase"
+    NFQWS_OPT_DESYNC_HTTPS6="--dpi-desync=split2"
     ```
 12. Lalu, save hasilnya dan nyalakan Zapret dengan mengetikan `service zapret start`
 13. Jangan lupa enable iptables dan zapret dengan mengetikan `service zapret enable` dan `service iptables enable` agar servicenya berjalan saat startup
+
+## Masalah pada aplikasi banking
+Beberapa bank akan menolak request anda jika anda mengaktifkan Zapret di Router OpenWRT karena itu, kita harus buat whitelist untuk beberapa situs bank
+
+1. Pergi ke folder `/opt/zapret` lalu ketik perintah `nano whitelist.txt`
+2. Lalu isikan:
+    ```
+    bankmandiri.co.id
+    klikbca.com
+    bca.co.id
+    bri.co.id
+    bi.go.id
+    maybank.co.id
+    sc.com
+    bankbsi.co.id
+    bankbjb.co.id
+    hsbc.co.id
+    permatabank.com
+    bni.co.id
+    cimbniaga.co.id
+    btn.co.id
+    danamon.co.id
+    hanabank.co.id
+    ```
+      <sup><b>(Silahkan tambahkan jika kurang)</b></sup><br>
+3. Lalu Save dan jalankan command `chmod 755 whitelist.txt` di terminal
+4. Edit config Zapret dengan mengetikan `nano config`
+5. Cari line bertuliskan `NFQWS_OPT_DESYNC` dan tambah ` --hostlist-exclude=/opt/zapret/whitelist.txt` disetiap akhir line sebelum `"`
+   - Sebagai contoh, Konfigurasi Zapret kita seperti ini:
+     ```
+     # CHOOSE NFQWS DAEMON OPTIONS for DPI desync mode. run "nfq/nfqws --help" for option list
+     DESYNC_MARK=0x40000000
+     NFQWS_OPT_DESYNC="--dpi-desync=fake --dpi-desync-ttl=0 --dpi-desync-ttl6=0 --dpi-desync-fooling=badsum"
+     NFQWS_OPT_DESYNC_HTTP="--hostcase"
+     NFQWS_OPT_DESYNC_HTTPS="--dpi-desync=split2"
+     NFQWS_OPT_DESYNC_HTTP6="--hostcase"
+     NFQWS_OPT_DESYNC_HTTPS6="--dpi-desync=split2"
+     ```
+   - Yang kita harus lakukan adalah menambah `--hostlist-exclude=/opt/zapret/whitelist.txt` dibelakang sehingga menjadi seperti ini:
+     ```
+     # CHOOSE NFQWS DAEMON OPTIONS for DPI desync mode. run "nfq/nfqws --help" for option list
+     DESYNC_MARK=0x40000000
+     NFQWS_OPT_DESYNC="--dpi-desync=fake --dpi-desync-ttl=0 --dpi-desync-ttl6=0 --dpi-desync-fooling=badsum --hostlist-exclude=/opt/zapret/whitelist.txt"
+     NFQWS_OPT_DESYNC_HTTP="--hostcase --hostlist-exclude=/opt/zapret/whitelist.txt"
+     NFQWS_OPT_DESYNC_HTTPS="--dpi-desync=split2 --hostlist-exclude=/opt/zapret/whitelist.txt"
+     NFQWS_OPT_DESYNC_HTTP6="--hostcase --hostlist-exclude=/opt/zapret/whitelist.txt"
+     NFQWS_OPT_DESYNC_HTTPS6="--dpi-desync=split2 --hostlist-exclude=/opt/zapret/whitelist.txt"
+     ```
+6. Save dan restart Zapret dengan mengetikan `service zapret restart`
