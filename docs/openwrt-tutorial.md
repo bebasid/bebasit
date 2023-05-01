@@ -147,7 +147,7 @@ Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-conte
 12. Lalu, save hasilnya dan nyalakan Zapret dengan mengetikan `service zapret start`
 13. Jangan lupa enable iptables dan zapret dengan mengetikan `service zapret enable` dan `service iptables enable` agar servicenya berjalan saat startup
 
-## Masalah pada aplikasi banking
+## Masalah pada aplikasi banking (Credit to One for the step)
 Beberapa bank akan menolak request anda jika anda mengaktifkan Zapret di Router OpenWRT karena itu, kita harus buat whitelist untuk beberapa situs bank
 
 1. Pergi ke folder `/opt/zapret` lalu ketik perintah `nano whitelist.txt`
