@@ -6,31 +6,31 @@
 
 <p align="center">
   <b><sup>Following this instruction is in your own risk. I'm not responsible for content you are trying to access after following this tutorial or the damage you done during the installation process. Please use it wisely and follow the instruction carefully</sup></b><br><br>
-  <b>This method doesn't work on Biznet, Telkomsel, Iconnet, and XL because how strong their DPI implementation is</b>
+  <b>This method doesn't work on Biznet, Telkomsel, Iconnet, HSP-NET (PT Parsaoran Global Datatrans), and XL because how strong their DPI implementation is</b>
 </p>
 
 ### Langkah-langkah
 
 1. Login ke RouterOS anda dan buka Terminal
-2. Jalankan perintah ini:
+2. Jalankan perintah ini untuk membypass DNS Nasional:
 ```
 # Script by BebasID Community
 
-/ip firewall address-list 
-add list=blokir_kominfo comment="BebasIT | REDDIT" address=151.101.193.140
-add list=blokir_kominfo comment="BebasIT | REDDIT" address=151.101.65.140
-add list=blokir_kominfo comment="BebasIT | REDDIT" address=151.101.1.140
-add list=blokir_kominfo comment="BebasIT | REDDIT" address=151.101.129.140
-add list=blokir_kominfo comment="BebasIT | REDDIT" address=199.232.45.140
-add list=blokir_kominfo comment="BebasIT | VIMEO" address=162.159.138.60
-add list=blokir_kominfo comment="BebasIT | VIMEO" address=162.159.128.61
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=47.254.192.66 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=47.254.192.66 to-ports=1753
 ```
 3. Jalankan perintah ini juga:
 ```
+# Script by BebasID Community
+
+/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[SUMBER INTERNET ANDA] content="Location: http://lamanlabuh.aduankonten.id/" action=drop
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward src-address-list=blokir_kominfo protocol=tcp in-interface=[INTERFACE WAN ANDA] tcp-flags=rst,ack action=drop
 ```
 <b>Ganti [INTERFACE WAN ANDA] dengan interface sumber internet anda seperti contoh dibawah ini:</b>
 ```
+# Script by BebasID Community
+
+/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=ether1 content="Location: http://lamanlabuh.aduankonten.id/" action=drop
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward src-address-list=blokir_kominfo protocol=tcp in-interface=ether1 tcp-flags=rst,ack action=drop
 ```
 
