@@ -6,7 +6,6 @@
 
 <p align="center">
   <b><sup>Following this instruction is in your own risk. I'm not responsible for content you are trying to access after following this tutorial or the damage you done during the installation process. Please use it wisely and follow the instruction carefully</sup></b><br><br>
-  <b>This method doesn't work on Biznet, Telkomsel, Iconnet, HSP-NET (PT Parsaoran Global Datatrans), and XL because how strong their DPI implementation is</b>
 </p>
 
 ### Langkah-langkah
