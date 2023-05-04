@@ -23,7 +23,7 @@
 ```
 # Script by BebasID Community
 
-/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[SUMBER INTERNET ANDA] content="Location: http://lamanlabuh.aduankonten.id/" action=drop
+/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] content="Location: http://lamanlabuh.aduankonten.id/" action=drop
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] tcp-flags=rst,ack action=drop
 ```
 <b>Ganti [INTERFACE WAN ANDA] dengan interface sumber internet anda seperti contoh dibawah ini:</b>
