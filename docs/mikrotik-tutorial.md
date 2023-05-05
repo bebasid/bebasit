@@ -18,7 +18,7 @@
 /ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=47.254.192.66 to-ports=1753
 /ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=47.254.192.66 to-ports=1753
 ```
-3. Jalankan perintah ini juga:
+3. Jalankan perintah ini juga untuk membypass DPI Kominfo:
 ```
 # Script by BebasID Community
 
