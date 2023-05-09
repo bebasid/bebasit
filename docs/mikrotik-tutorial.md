@@ -33,4 +33,11 @@
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=ether1 tcp-flags=rst,ack action=drop
 ```
 
-4. Selesai
+**UNTUK PENGGUNA INDOSAT, SILAHKAN TAMBAHKAN RULE INI DIKARENAKAN INDOSAT MENGIRIM REQUEST SELAIN LAMANLABUH UNTUK PEMBLOKIRAN HTTP**
+```
+# Script by BebasID Community
+
+/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] content="Location: http://ads.indosatooredoo.com/ads-request" action=drop
+```
+
+4. Selesai dan coba!
