@@ -29,5 +29,12 @@ Berikut ini adalah daftar aplikasi yang sudah diuji dalam kemampuan menembus DPI
 - [Green Tunnel](https://github.com/SadeghHayeri/GreenTunnel/)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel)
 - [Zapret](https://github.com/bol-van/zapret)
-## License
-bebasit [terlisensi MIT] (https://github.com/bebasid/bebasit/blob/master/LICENSE)
+## Lisence
+
+bebasdns dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasit/blob/master/LICENSE).
+
+---
+
+# Terms and Conditions
+
+Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md) nya.
