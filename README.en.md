@@ -1,6 +1,7 @@
 # bebasit
 bebasit is a derivative repo of bebasid which contains application for deep packet inspection (DPI) bypassing.
 
+<a href="README.md">Indonesia</a> | <b>English</b>
 ## List of Application
 Here is a list of application which already tested in regards to DPI bypass capability.
 ### Windows
