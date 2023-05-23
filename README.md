@@ -37,6 +37,6 @@ bebasit dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasit/b
 
 ---
 
-# Terms and Conditions
+# Syarat dan Ketentuan
 
 Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md) nya.
