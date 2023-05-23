@@ -1,5 +1,7 @@
 # bebasit
 bebasit adalah repo turunan bebasid yang berisikan aplikasi untuk keperluan penembusan deep packet inspection (DPI).
+
+<b>Indonesia</b> | <a href="README.en.md">English</a>
 ## Daftar Aplikasi
 Berikut ini adalah daftar aplikasi yang sudah diuji dalam kemampuan menembus DPI.
 ### Windows
@@ -20,18 +22,18 @@ Berikut ini adalah daftar aplikasi yang sudah diuji dalam kemampuan menembus DPI
 ### Tambahan
 - Versi aplikasi dalam repo ini tidak menggunakan skema auto update ke versi terbaru dengan alasan bahwa mungkin ada fitur terbaru dari aplikasi yang memang tidak diperlukan.
 ### Mengapa dipisah antara bebasid dengan bebasit
-- Memudahkan pengontrolan kesesuaian aplikasi
-- Jika aplikasi seperti GoodbyeDPI, Green Tunnel, PowerTunnel, dan Zapret diletakkan ke repo bebasid, akan terjadi pemborosan data. Seringkali orang menggunakan perintah `git clone` dalam mengunduh bebasid sehingga aplikasi yang semestinya dipasang di Mac ikut terunduh di Windows
-- Ada proyek baru
-- Agar bebasid lebih terlihat formal
+- Memudahkan pengontrolan kesesuaian aplikasi.
+- Jika aplikasi seperti GoodbyeDPI, Green Tunnel, PowerTunnel, dan Zapret diletakkan ke repo bebasid, akan terjadi pemborosan data. Seringkali orang menggunakan perintah `git clone` dalam mengunduh bebasid sehingga aplikasi yang semestinya dipasang di Mac ikut terunduh di Windows.
+- Ada proyek baru.
+- Agar bebasid lebih terlihat formal.
 ## bebasit Dependencies
 - [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
 - [Green Tunnel](https://github.com/SadeghHayeri/GreenTunnel/)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel)
 - [Zapret](https://github.com/bol-van/zapret)
-## Lisence
+## Lisensi
 
-bebasdns dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasit/blob/master/LICENSE).
+bebasit dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasit/blob/master/LICENSE).
 
 ---
 
