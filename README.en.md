@@ -1,9 +1,9 @@
 # bebasit
-bebasit is a derivative repo of bebasid which contains application for deep packet inspection (DPI) bypassing.
+bebasit is a derivative repo of bebasid containing applications for deep packet inspection (DPI) bypassing.
 
 <a href="README.md">Indonesia</a> | <b>English</b>
 ## List of Application
-Here is a list of application which already tested in regards to DPI bypass capability.
+Here is a list of application that already tested in regards to DPI bypass capability.
 ### Windows
 - GoodbyeDPI.
 - PowerTunnel (JRE).
@@ -16,14 +16,14 @@ Here is a list of application which already tested in regards to DPI bypass capa
 - PowerTunnel (JRE).
 ## Note
 ### Windows
-- Not all version of Windows will work, for example Windows 7 without any update has problem, it needs KBxxxxxx.
-### Linux dan MacOS
+- Not all version of Windows will work, for example Windows 7 without any update has a problem, it needs KBxxxxxx.
+### Linux and MacOS
 - Green Tunnel usability is depending on luck (it does not mean that Green Tunnel cannot bypass DPI).
 ### Addendum
-- Version of application inside this repo does not use auto update scheme to latest version because a new feature of application might not be useful.
+- Version of application inside this repo does not use autoupdate scheme to latest version because a new feature of application might not be useful.
 ### Why bebasid and bebasit are separate
-- Easing control for application suitability.
-- If application like GoodbyeDPI, Green Tunnel, PowerTunnel, and Zapret are included into bebasid repo, it would consume more data. In many cases, people use `git clone` command when downloading bebasid and it caused Mac version of the app being downloaded as well in Windows.
+- Easing control of application suitability.
+- If applications like GoodbyeDPI, Green Tunnel, PowerTunnel, and Zapret are included within bebasid repo, it would consume more data. In many cases, people use `git clone` command when downloading bebasid and it caused Mac version of the app being downloaded as well in Windows.
 - New project.
 - To make bebasid looks more formal.
 ## bebasit Dependencies
@@ -39,4 +39,4 @@ bebasit is licensed under [MIT License](https://github.com/bebasid/bebasit/blob/
 
 # Terms and Conditions
 
-By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. For more about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md).
+By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md).
