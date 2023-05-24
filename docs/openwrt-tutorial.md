@@ -5,6 +5,10 @@
 <h1 align="center">TUTORIAL BYPASS DPI KOMINFO MENGGUNAKAN OPENWRT</h1>
 
 <p align="center">
+    <b>Indonesia</b> | <a href="openwrt-tutorial.en.md">English</a>
+</p>
+
+<p align="center">
   <b><sup>Following this instruction is in your own risk. I'm not responsible for content you are trying to access after following this tutorial or the damage you done during the installation process. Please use it wisely and follow the instruction carefully</sup></b>
 </p>
 
