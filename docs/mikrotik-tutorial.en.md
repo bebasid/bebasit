@@ -5,6 +5,10 @@
 <h1 align="center">BYPASS DPI USING MIKROTIK</h1>
 
 <p align="center">
+    <a href="mikrotik-tutorial.md">Indonesia</a> | <b>English</b>
+</p>
+
+<p align="center">
   <b><sup>Following this instruction is in your own risk. I'm not responsible for content you are trying to access after following this tutorial or the damage you done during the installation process. Please use it wisely and follow the instruction carefully</sup></b><br><br>
 </p>
 
