@@ -2,28 +2,28 @@
 bebasit is a derivative repo of bebasid containing applications for deep packet inspection (DPI) bypassing.
 
 <a href="README.md">Indonesia</a> | <b>English</b>
-## List of Application
-Here is a list of application that already tested in regards to DPI bypass capability.
+## List of Applications
+Here is a list of applications that have already been tested regarding DPI bypass capability.
 ### Windows
 - GoodbyeDPI.
 - PowerTunnel (JRE).
 ### Linux
 - Green Tunnel (NodeJS + NPM).
 - PowerTunnel (JRE).
-- Zapret (currently it is still under testing phase as zapret does not include DoH within tpws).
+- Zapret (currently it is still under the testing phase as Zapret does not include DoH within tpws).
 ### Mac
 - Green Tunnel (NodeJS + NPM).
 - PowerTunnel (JRE).
 ## Note
 ### Windows
-- Not all version of Windows will work, for example Windows 7 without any update has a problem, it needs KBxxxxxx.
+- Not all versions of Windows will work, for example, Windows 7 without any updates needs KBxxxxxx.
 ### Linux and MacOS
-- Green Tunnel usability is depending on luck (it does not mean that Green Tunnel cannot bypass DPI).
+- Green Tunnel usability depends on luck (it does not mean that Green Tunnel cannot bypass DPI).
 ### Addendum
-- Version of application inside this repo does not use autoupdate scheme to latest version because a new feature of application might not be useful.
+- The version of applications inside this repo does not use an auto-update scheme to the latest version because a new feature of the application might not be useful.
 ### Why bebasid and bebasit are separate
 - Easing control of application suitability.
-- If applications like GoodbyeDPI, Green Tunnel, PowerTunnel, and Zapret are included within bebasid repo, it would consume more data. In many cases, people use `git clone` command when downloading bebasid and it caused Mac version of the app being downloaded as well in Windows.
+- If applications like GoodbyeDPI, Green Tunnel, PowerTunnel, and Zapret are included within the bebasid repo, it would consume more data. In many cases, people use the `git clone` command when downloading bebasid and it caused the Mac version of the app to be downloaded as well in Windows.
 - New project.
 - To make bebasid looks more formal.
 ## bebasit Dependencies
