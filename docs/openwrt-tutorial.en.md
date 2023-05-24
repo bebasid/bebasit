@@ -4,7 +4,7 @@
 
 <h1 align="center">DPI BYPASS TUTORIAL USING OPENWRT</h1>
 <p align="center">
-    <a href="README.md">Indonesia</a> | <b>English</b>
+    <a href="openwrt-tutorial.md">Indonesia</a> | <b>English</b>
 </p>
 
 <p align="center">
