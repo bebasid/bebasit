@@ -39,4 +39,4 @@ bebasit is licensed under [MIT License](https://github.com/bebasid/bebasit/blob/
 
 # Terms and Conditions
 
-By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md).
+By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made, and you accept all the consequences that will arise. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md).
