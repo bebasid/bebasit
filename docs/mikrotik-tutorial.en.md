@@ -26,8 +26,8 @@
 ```
 # Script by BebasID Community
 
-/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] content="Location: http://lamanlabuh.aduankonten.id/" action=drop
-/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] tcp-flags=rst,ack action=drop
+/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[YOUR WAN INTERFACE] content="Location: http://lamanlabuh.aduankonten.id/" action=drop
+/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[YOUR WAN INTERFACE] tcp-flags=rst,ack action=drop
 ```
 <b>Change [YOUR WAN INTERFACE] with your internet source interface like this:</b>
 ``` 
