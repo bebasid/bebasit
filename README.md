@@ -31,7 +31,7 @@ Berikut ini adalah daftar aplikasi yang sudah diuji dalam kemampuan menembus DPI
 - Green Tunnel "hoki-hokian" dalam menembus DPI (bukan berarti Green Tunnel tidak dapat menembus bypass DPI).
 ### Tambahan
 - Versi aplikasi dalam repo ini tidak menggunakan skema auto update ke versi terbaru dengan alasan bahwa mungkin ada fitur terbaru dari aplikasi yang memang tidak diperlukan.
-### Mengapa dipisah antara bebasid dengan bebasit
+### Mengapa dipisah antara BebasID dengan BebasIT
 - Memudahkan pengontrolan kesesuaian aplikasi.
 - Jika aplikasi seperti GoodbyeDPI, Green Tunnel, PowerTunnel, dan Zapret diletakkan ke repo bebasid, akan terjadi pemborosan data. Seringkali orang menggunakan perintah `git clone` dalam mengunduh bebasid sehingga aplikasi yang semestinya dipasang di Mac ikut terunduh di Windows.
 - Ada proyek baru.
