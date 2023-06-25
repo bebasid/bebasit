@@ -7,7 +7,7 @@
   <b>BebasIT / BebasID IT</b> is a derivative repo of bebasid containing applications for deep packet inspection (DPI) bypassing.
 </p>
 <p align="center"> 
-<b>Indonesia</b> | <a href="README.en.md">English</a>
+<a href="README.md">Indonesia</a> | <b>English</b>
 </p>
 
 ---
