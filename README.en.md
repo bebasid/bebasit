@@ -1,7 +1,18 @@
-# bebasit
-bebasit is a derivative repo of bebasid containing applications for deep packet inspection (DPI) bypassing.
+<p align="center">
+    <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-black.svg#gh-light-mode-only" alt="BebasIT Black Logo" width="445">
+    <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-white.svg#gh-dark-mode-only" alt="BebasIT White Logo" width="445"></br>
+</p>
+<hr>
+<p align="center">
+  
+**BebasIT** / **BebasID IT** is a derivative repo of bebasid containing applications for deep packet inspection (DPI) bypassing.
+</p>
+<p align="center"> 
+<b>Indonesia</b> | <a href="README.en.md">English</a>
+</p>
 
-<a href="README.md">Indonesia</a> | <b>English</b>
+---
+
 ## List of Applications
 Here is a list of applications that have already been tested regarding DPI bypass capability.
 ### Windows
@@ -21,19 +32,19 @@ Here is a list of applications that have already been tested regarding DPI bypas
 - Green Tunnel usability depends on luck (it does not mean that Green Tunnel cannot bypass DPI).
 ### Addendum
 - The version of applications inside this repo does not use an auto-update scheme to the latest version because a new feature of the application might not be useful.
-### Why bebasid and bebasit are separate
+### Why BebasID and BebasIT are separate
 - Easing control of application suitability.
 - If applications like GoodbyeDPI, Green Tunnel, PowerTunnel, and Zapret are included within the bebasid repo, it would consume more data. In many cases, people use the `git clone` command when downloading bebasid and it caused the Mac version of the app to be downloaded as well in Windows.
 - New project.
-- To make bebasid looks more formal.
-## bebasit Dependencies
+- To make BebasID looks more formal.
+## BebasIT / BebasID IT Dependencies
 - [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
 - [Green Tunnel](https://github.com/SadeghHayeri/GreenTunnel/)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel)
 - [Zapret](https://github.com/bol-van/zapret)
 ## License
 
-bebasit is licensed under [MIT License](https://github.com/bebasid/bebasit/blob/master/LICENSE).
+BebasIT / BebasID IT is licensed under [MIT License](https://github.com/bebasid/bebasit/blob/master/LICENSE).
 
 ---
 
