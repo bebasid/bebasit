@@ -4,8 +4,7 @@
 </p>
 <hr>
 <p align="center">
-  
-**BebasIT** / **BebasID IT** adalah repo turunan bebasid yang berisikan aplikasi untuk keperluan penembusan deep packet inspection (DPI).
+ <b>BebasIT / BebasID IT</b> adalah repo turunan bebasid yang berisikan aplikasi untuk keperluan penembusan deep packet inspection (DPI).
 </p>
 <p align="center"> 
 <b>Indonesia</b> | <a href="README.en.md">English</a>
