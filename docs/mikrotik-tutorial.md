@@ -50,12 +50,20 @@
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=ether1 content="Location: http://lamanlabuh.aduankonten.id/" action=drop
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=ether1 tcp-flags=rst,ack action=drop
 ```
+<br>
 
 **UNTUK PENGGUNA INDOSAT, SILAHKAN TAMBAHKAN RULE INI DIKARENAKAN INDOSAT MENGIRIM REQUEST SELAIN LAMANLABUH UNTUK PEMBLOKIRAN HTTP**
 ```
 # Script by BebasID Community
 
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] content="Location: http://ads.indosatooredoo.com/ads-request" action=drop
+```
+
+**UNTUK PENGGUNA MYREPUBLIC, SILAHKAN TAMBAHKAN RULE INI DIKARENAKAN MYREPUBLIC TERKADANG MENGIRIM REQUEST SELAIN LAMANLABUH UNTUK PEMBLOKIRAN HTTP**
+```
+# Script by BebasID Community
+
+/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] content="Location: https://block.myrepublic.co.id" action=drop
 ```
 
 4. Selesai dan coba!
