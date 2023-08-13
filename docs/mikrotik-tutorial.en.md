@@ -35,6 +35,13 @@
 /ip firewall nat add action=dst-nat chain=dstnat comment="BebasID DNS" dst-port=53 protocol=udp to-addresses=103.87.68.23 to-ports=1753
 ```
 
+**[ BLOCK VIRUS, ADULT CONTENT & GAMBLING ]**
+```
+# Script by BebasID Community
+/ip firewall nat add action=dst-nat chain=dstnat comment="BebasID DNS" dst-port=53 protocol=tcp to-addresses=103.87.68.72 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="BebasID DNS" dst-port=53 protocol=udp to-addresses=103.87.68.72 to-ports=1753
+```
+
 3. Run this command as well to bypass Kominfo DPI:
 ```
 # Script by BebasID Community
@@ -49,12 +56,20 @@
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=ether1 content="Location: http://lamanlabuh.aduankonten.id/" action=drop
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=ether1 tcp-flags=rst,ack action=drop
 ```
+<br>
 
 **FOR INDOSAT USERS, PLEASE ADD THIS RULE DUE TO INDOSAT ALSO SEND ADDITIONAL REQUEST OTHER THAN LAMANLABUH FOR HTTP BLOCKING**
 ```
 # Script by BebasID Community
 
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] content="Location: http://ads.indosatooredoo.com/ads-request" action=drop
+```
+
+**FOR MYREPUBLIC USERS, PLEASE ADD THIS RULE DUE TO INDOSAT ALSO SEND ADDITIONAL REQUEST OTHER THAN LAMANLABUH FOR HTTP BLOCKING**
+```
+# Script by BebasID Community
+
+/ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] content="Location: https://block.myrepublic.co.id" action=drop
 ```
 
 4. All set and let's try!
