@@ -65,7 +65,7 @@
 /ip firewall filter add comment="BebasIT | Bypass DPI" chain=forward protocol=tcp in-interface=[INTERFACE WAN ANDA] content="Location: http://ads.indosatooredoo.com/ads-request" action=drop
 ```
 
-**FOR MYREPUBLIC USERS, PLEASE ADD THIS RULE DUE TO INDOSAT ALSO SEND ADDITIONAL REQUEST OTHER THAN LAMANLABUH FOR HTTP BLOCKING**
+**FOR MYREPUBLIC USERS, PLEASE ADD THIS RULE DUE TO MYREPUBLIC ALSO SEND ADDITIONAL REQUEST OTHER THAN LAMANLABUH FOR HTTP BLOCKING**
 ```
 # Script by BebasID Community
 
