@@ -23,8 +23,8 @@
 ```
 # Script by BebasID Community
 
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=103.87.68.24 to-ports=1753
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=103.87.68.24 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=103.87.68.194 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=103.87.68.194 to-ports=1753
 ```
 <br>
 
@@ -32,16 +32,16 @@
 ```
 # Script by BebasID Community
 
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=103.87.68.23 to-ports=1753
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=103.87.68.23 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=103.87.68.195 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=103.87.68.195 to-ports=1753
 ```
 
 **[ BLOKIR VIRUS, KONTEN DEWASA & JUDI ]**
 ```
 # Script by BebasID Community
 
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=103.87.68.72 to-ports=1753
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=103.87.68.72 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=103.87.68.196 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=103.87.68.196 to-ports=1753
 ```
 
 3. Jalankan perintah ini juga untuk membypass DPI Kominfo:
