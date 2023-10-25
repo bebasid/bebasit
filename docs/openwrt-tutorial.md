@@ -157,22 +157,25 @@ Beberapa bank akan menolak request anda jika anda mengaktifkan Zapret di Router 
 1. Pergi ke folder `/opt/zapret` lalu ketik perintah `nano whitelist.txt`
 2. Lalu isikan:
     ```
-    bankmandiri.co.id
-    klikbca.com
-    bca.co.id
-    bri.co.id
-    bi.go.id
-    maybank.co.id
-    sc.com
-    bankbsi.co.id
     bankbjb.co.id
-    hsbc.co.id
-    permatabank.com
+    bankbsi.co.id
+    bankmandiri.co.id
+    bca.co.id
+    bi.go.id
+    blubybcadigital.id
     bni.co.id
-    cimbniaga.co.id
+    bri.co.id
     btn.co.id
+    cimbniaga.co.id
     danamon.co.id
     hanabank.co.id
+    hsbc.co.id
+    jago.com
+    klikbca.com
+    maybank.co.id
+    permatabank.com
+    permatanet.com
+    sc.com
     ```
       <sup><b>(Silahkan tambahkan jika kurang)</b></sup><br>
 3. Lalu Save dan jalankan command `chmod 755 whitelist.txt` di terminal
