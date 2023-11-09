@@ -155,22 +155,25 @@ Many bank will reject your request if you activated Zapret on OpenWRT Router so 
 1. Go to `/opt/zapret` folder then run `nano whitelist.txt`
 2. Fill with:
     ```
-    bankmandiri.co.id
-    klikbca.com
-    bca.co.id
-    bri.co.id
-    bi.go.id
-    maybank.co.id
-    sc.com
-    bankbsi.co.id
     bankbjb.co.id
-    hsbc.co.id
-    permatabank.com
+    bankbsi.co.id
+    bankmandiri.co.id
+    bca.co.id
+    bi.go.id
+    blubybcadigital.id
     bni.co.id
-    cimbniaga.co.id
+    bri.co.id
     btn.co.id
+    cimbniaga.co.id
     danamon.co.id
     hanabank.co.id
+    hsbc.co.id
+    jago.com
+    klikbca.com
+    maybank.co.id
+    permatabank.com
+    permatanet.com
+    sc.com
     ```
       <sup><b>(Add more if needed)</b></sup><br>
 3. Then Save and run `chmod 755 whitelist.txt` in terminal
