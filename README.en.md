@@ -7,7 +7,7 @@
 </table>
 </div>
 
-<p align="center">
+<div align="center">
    
    # Notice before using this project:
 <br></br>
