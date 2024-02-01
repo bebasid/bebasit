@@ -113,7 +113,7 @@
 </tr>
 </thead>
 <tbody>
-<td><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/bebasid-join-whatsapp-group.png?raw=true" height="340" alt="Join Grup Telegram BEBASID"></a></td>
+<td><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/bebasid-join-whatsapp-group.png?raw=true" height="340" alt="Join Grup WhatsApp BEBASID"></a></td>
 </tr>
 </tbody>
 </table>
