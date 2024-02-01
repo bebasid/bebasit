@@ -14,7 +14,7 @@
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96"><br><br>
     <b>For an ISP that uses <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.en.md">Deep Packet Inspection (DPI)</a>, use <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> to bypass the DPI or turn on version 6 of the Internet Protocol (IPv6) if the ISP supports it.</b>
-    <p><bFor Internet Service Provider (ISP) that uses <a href="https://www.jsn.net.id/">JSN</a> and blocks DoH/DoT domain, please contact us at <a href="mailto:dukungan@bebasid.com">dukungan[at]bebasid.com</a> for alternative domain to be able to use BebasID DNS service.</b></p><br>
+    <p><b>For Internet Service Provider (ISP) that uses <a href="https://www.jsn.net.id/">JSN</a> and blocks DoH/DoT domain, please contact us at <a href="mailto:dukungan@bebasid.com">dukungan[at]bebasid.com</a> for alternative domain to be able to use BebasID DNS service.</b></p><br>
 <br><b><code>Signs if the ISP is using DPI:</code></b></br></br>
 <table align="center">
 <thead>
