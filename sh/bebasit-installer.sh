@@ -115,6 +115,7 @@ install_tunnel(){
         "Spoof DPI" )
           mkdir ~/.bebasit
           if curl -L -o ~/.bebasit/spoof-dpi https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/spoofdpi/darwin/spoof-dpi; then
+            chmod +x ~/.bebasit/spoof-dpi
             echo "Sukses memasang Spoof DPI"
           else
             echo "Tidak dapat mengambil file Spoof DPI"
