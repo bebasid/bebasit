@@ -271,6 +271,11 @@ Bantu proyek ini agar VPS [BebasDNS / BebasID DNS](https://github.com/bebasid/be
 
 [BebasIT / BebasID IT](#bebasit--bebasid-it) telah lisensikan dibawah [Lisensi MIT](https://github.com/bebasid/bebasit/blob/master/LICENSE) tersebut.
 
+## Honorable Mention:
+
+Dan008, Fulk, farhanadji, nauli, bobbyargaa, sheenidgs, KAREEEN!
+
+
 ## Syarat dan Ketentuan:
 
 Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan.

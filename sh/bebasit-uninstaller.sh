@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # bebasit (bebasid tunnel) dependencies script uninstaller
-# to uninstall green-tunnel or powertunnel
+# to uninstall powertunnel and spoof-dpi
 # for Debian, Arch, or Darwin system
 # haibara
 
@@ -43,7 +43,10 @@ uninstall_tunnel(){
               sudo rm -rf /usr/bin/gt
               ;;
             "PowerTunnel" )
-              confirm "-e ~/.bebasit" "PowerTunnel" "rm -rf ~/.bebasit"
+              confirm "-e ~/.bebasit/PowerTunnel.jar" "PowerTunnel" "rm -rf ~/.bebasit/PowerTunnel.jar"
+              ;;
+            "Spoof DPI")
+              confirm "-e ~/.bebasit/spoof-dpi" "Spoof DPI" "rm -rf ~/.bebasit/spoof-dpi"
               ;;
           esac
           ;;
@@ -55,8 +58,11 @@ uninstall_tunnel(){
               sudo rm -rf /usr/bin/gt
               ;;
             "PowerTunnel" )
-              confirm "-e ~/.bebasit" "PowerTunnel" "rm -rf ~/.bebasit"
+              confirm "-e ~/.bebasit/PowerTunnel.jar" "PowerTunnel" "rm -rf ~/.bebasit/PowerTunnel.jar"
               confirm "-x $(command -v java)" "Java" "sudo pacman -R jre-openjdk --noconfirm"
+              ;;
+            "Spoof DPI")
+              confirm "-e ~/.bebasit/spoof-dpi" "Spoof DPI" "rm -rf ~/.bebasit/spoof-dpi"
               ;;
           esac
           ;;
@@ -73,19 +79,23 @@ uninstall_tunnel(){
           sudo rm -rf /usr/bin/gt
           ;;
         "PowerTunnel" )
-          confirm "-e ~/.bebasit" "PowerTunnel" "sudo rm -rf ~/.bebasit"
+          confirm "-e ~/.bebasit/PowerTunnel.jar" "PowerTunnel" "rm -rf ~/.bebasit/PowerTunnel.jar"
           confirm "-x $(command -v java)" "Java" "brew uninstall java"
+          ;;
+        "Spoof DPI")
+          confirm "-e ~/.bebasit/spoof-dpi" "Spoof DPI" "rm -rf ~/.bebasit/spoof-dpi"
+          ;;
       esac
       ;;
   esac
 }
 case $1 in
-  "green-tunnel" )
-    uninstall_tunnel "Green Tunnel"
-    exit 1
-    ;;
   "powertunnel" )
     uninstall_tunnel "PowerTunnel"
+    exit 1
+    ;;
+  "spoof-dpi" )
+    uninstall_tunnel "Spoof DPI"
     exit 1
     ;;
 esac
