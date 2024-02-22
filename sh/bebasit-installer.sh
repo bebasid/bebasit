@@ -40,6 +40,7 @@ install_tunnel(){
             "PowerTunnel" )
               mkdir ~/.bebasit
               if curl -L -o ~/.bebasit/PowerTunnel.jar https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/PowerTunnel.jar; then
+                chmod +x ~/.bebasit/spoof-dpi
                 echo "Sukses memasang PowerTunnel"
               else
                 echo "Tidak dapat mengambil file PowerTunnel"
@@ -74,6 +75,7 @@ install_tunnel(){
             "Spoof DPI" )
               mkdir ~/.bebasit
               if curl -L -o ~/.bebasit/spoof-dpi https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/spoofdpi/linux/spoof-dpi; then
+                chmod +x ~/.bebasit/spoof-dpi
                 echo "Sukses memasang Spoof DPI"
               else
                 echo "Tidak dapat mengambil file Spoof DPI"
