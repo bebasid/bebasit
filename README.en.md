@@ -271,6 +271,10 @@ Help this project to ensure that [BebasDNS / BebasID DNS](https://github.com/beb
 
 [BebasIT / BebasID IT](#bebasit--bebasid-it) is licensed under [MPL-2.0 License](https://github.com/bebasid/bebasit/blob/master/LICENSE).
 
+## Honorable Mention:
+
+Dan008, Fulk, farhanadji, nauli, bobbyargaa, sheenidgs, KAREEEN!
+
 # Terms and Conditions:
 
 By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
