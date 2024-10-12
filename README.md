@@ -36,8 +36,8 @@
         <b>> Modem/Router:</b></br>
 <table>
   <tr>
-    <td valign="center"><a href=#openwrt><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="24"/> OpenWRT</td>
-    <td valign="center"><a href=#mikrotik><img src="https://cdn.discordapp.com/attachments/381569782257811456/1147154206063611994/Sb0qyQ88hIP9IdDM.png" width="16"/> MikroTik</td>
+    <td valign="center"><a href=#openwrt><img src="https://static-00.iconduck.com/assets.00/openwrt-icon-441x512-qp61dzma.png" width="24"/> OpenWRT</td>
+    <td valign="center"><a href=#mikrotik><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhp7QJvPuyuG7NolKdTdqBmb69csMW3_fBaCYVlR3e5nmU367MbJmDxkSLCMiaDfRscvvkmqt1362gOB3UraWiukRStkoHyFT6gnoWcAv9MyduYkIE_rG6xakrdJq7CDNV0GzSJuWolwRP2/s640/Download+aplikasi+Winbox+Terbaru.png width="24" height="24"/> MikroTik</td>
 </table></br>
         <b>> Sistem Operasi (OS)</b>:</br>
 <table>
