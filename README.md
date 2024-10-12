@@ -184,6 +184,7 @@ Berikut ini, ada 3 jenis daftar <b>sistem OS</b> yang sudah diuji dalam alat kem
 - [PowerTunnel (JRE)](https://github.com/krlvm/PowerTunnel/releases) 
 - <a href="https://github.com/bol-van/zapret/blob/master/install_easy.sh">Zapret</a> <i>(Saat ini masih dalam tahap uji coba.)</i>
 - <a href="https://github.com/Kkevsterrr/geneva">Geneva</a> <i>(Metode Susah)</i>
+- [IPTables](https://github.com/bebasid/bebasit/blob/master/docs/linuxiptables-tutorial.md)
 ### <b>Script:</b>
 Berikut ini, ada 2 jenis daftar <b>sistem Modem/Router</b> yang sudah diuji dalam alat kemampuan menembus DPI.
 ### <ins>OpenWRT</ins>
