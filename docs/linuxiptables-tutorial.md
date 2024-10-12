@@ -4,7 +4,7 @@
 <h1 align="center">TUTORIAL BYPASS DPI KOMINFO MENGGUNAKAN LINUX IPTABLES</h1>
 
 <p align="center">
-    <b>Indonesia</b> | <a href="mikrotik-tutorial.en.md">English</a>
+    <b>Indonesia</b> | <a href="linuxiptables-tutorial.en.md">English</a>
 </p>
 
 <p align="center">
