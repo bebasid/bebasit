@@ -29,7 +29,7 @@ Jangan lupa untuk menyimpan aturan (rule) iptables secara permanen supaya tidak 
 
 <a href="https://musaamin.web.id/linux-cara-mengetahui-nama-interface-jaringan/#:~:text=Dengan%20perintah-,ifconfig,-1">Cara mengetahui nama interface jaringan internet anda.</a>
 
-<a href="https://www.cyberciti.biz/faq/how-to-save-iptables-firewall-rules-permanently-on-linux/#:~:text=Saving%20iptables%20firewall%20rules%20permanently%20on%20Linux">Cara menyimpan aturan (rule) iptables anda</a>
+<a href="https://www.cyberciti.biz/faq/how-to-save-iptables-firewall-rules-permanently-on-linux/#:~:text=Saving%20iptables%20firewall%20rules%20permanently%20on%20Linux">Cara menyimpan aturan (rule) iptables anda.</a>
 
 <br>
 Selesai dan selamat mencoba!
