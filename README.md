@@ -1,5 +1,3 @@
-<hr>
-
 <div align="center">
 
 #### Bahasa / Language
@@ -7,8 +5,6 @@
 |-|-|
 
 </div>
-
-<hr>
 
 <p align="center">
 
@@ -61,7 +57,7 @@
 
 </p>
 
-<hr>
+##
 
 <div align="center">
 
@@ -94,8 +90,6 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 
 </div>
 
-<hr>
-
 <div align="center">
 
 ## Sponsor
@@ -111,8 +105,6 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 | <p align="center">[qdei.co](https://qdei.co)</p> |
 
 </div>
-
----
 
 ## Daftar Isi
 
@@ -140,8 +132,6 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
   + [Donasi Kami](#donasi-kami)
   + [Lisensi](#lisensi)
   + [Syarat dan Ketentuan](#syarat-dan-ketentuan)
-
----
 
 ## BebasIT / BebasID IT
 <a href=#bebasit--bebasid-it>BebasIT / BebasID IT</a> adalah repo turunan <a href="https://github.com/bebasid/bebasid">BebasID</a> yang berisikan <b>aplikasi program pihak ketiga dari sistem OS</b> atau <b>Script Modem/Router</b> untuk keperluan penembusan <b><i>Deep Packet Inspection (DPI)</i></b>.
