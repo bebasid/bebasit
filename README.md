@@ -1,140 +1,116 @@
-<div align="center">
-    <code>Bahasa / Languages:</code></br></br>
-<table>
-  <tr>
-    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b><ins>Indonesia</ins></b></td>
-    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> English</td>
-</table>
-</div>
+<hr>
 
 <div align="center">
 
-   # Pemberitahuan sebelum memakai proyek ini:
-<br></br>
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96"><br><br>
-     <b>Untuk Wi-Fi / Servis Provider Internet (ISP) yang memakai <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Inspeksi Paket Dalam (DPI)</a>, harap gunakan Script BebasID khusus perangkat router atau OS aplikasi program pihak ketiga untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.</b></br><br>
-    <p><b>Bagi Provider ISP yang menggunakan <a href="https://www.jsn.net.id/">JSN</a> dan memblokir domain DoH/DoT, silahkan kontak kami di [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.</b></p><br>
-<br><b><code>Ciri-ciri ISP menggunakan DPI:</code></b></br></br>
-<table align="center">
-<thead>
-<tr>
-<th><b>Protokol HTTP</b> mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code>.</th>
-<th>Sedangkan <b>Protokol HTTPS</b> mengerluarkan ke <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code>.</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/http-lamanlabuh-result.png" alt="HTTP Lamanlabuh Result"></td>
-<td><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/https-connection-reset.png" alt="HTTPS Connection Reset Result"></td>
-</tr>
-</tbody>
-</table>
-    <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">Lihat penjelasan tentang DPI selengkapnya</a>.
-    <br></br>
-<code>Tutorial cara melewati/bypass DPI atau Lamanlabuh menggunakan <b>Modem/Router atau di Sistem Operasi (OS)</b>:</b></i></code></br></br>
-        <b>> Modem/Router:</b></br>
-<table>
-  <tr>
-    <td valign="center"><a href=#openwrt><img src="https://static-00.iconduck.com/assets.00/openwrt-icon-441x512-qp61dzma.png" width="24"/> OpenWRT</td>
-    <td valign="center"><a href=#mikrotik><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhp7QJvPuyuG7NolKdTdqBmb69csMW3_fBaCYVlR3e5nmU367MbJmDxkSLCMiaDfRscvvkmqt1362gOB3UraWiukRStkoHyFT6gnoWcAv9MyduYkIE_rG6xakrdJq7CDNV0GzSJuWolwRP2/s640/Download+aplikasi+Winbox+Terbaru.png width="24" height="24"/> MikroTik</td>
-</table></br>
-        <b>> Sistem Operasi (OS)</b>:</br>
-<table>
-  <tr>
-    <td valign="center"><a href=#windows><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="24"/> Windows</td>
-    <td valign="center"><a href=#macos><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="24"/> MacOS</td>
-    <td valign="center"><a href=#linux><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="24"/> Linux</td>
-</table></br>
+#### Bahasa / Language
+| <img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> **Indonesia** | <img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> [English](README.en.md) |
+|-|-|
+
 </div>
+
 <hr>
-<div align="center">
-    <b><code><a href=#bebasit--bebasid-it>BebasIT / BebasID IT</a> ini telah disponsori oleh:</code></b><br><br>
-  <table align="center">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330" target="_blank" alt="Website Provider Atharva">
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330" target="_blank" alt="Website Provider Atharva">
-  </td>
-<td>
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-atharva-cloud-black.png#gh-light-mode-only" width="330" target="_blank" alt="Website Provider Cloud Atharva">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-atharva-cloud-whitepng.png?raw=true#gh-dark-mode-only" width="330" target="_blank" alt="Website Provider Cloud Atharva">
-</td><tr>
-  <th>https://www.atharva.co.id/</th>
-<th>https://www.atharva.cloud</th>
-</tr>
-</tbody>
-</table>
-    <i>Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.</i></br>
-    <m>Dimulai dari <b>Rp. 50.000,00</b></m>.</br>
-    <a href="https://www.atharva.cloud/index.php?rp=/store/cloud-vm-lite">Lihat paket langganan VPS selengkapnya</a>.
-</div>
-<hr>
-<p align="center"><code>KINI Memperkenalkan:</code></br></br>
-    <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-black.svg#gh-light-mode-only" alt="BebasIT Black Logo" width="445">
-    <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-white.svg#gh-dark-mode-only" alt="BebasIT White Logo" width="445"></br>
-    <i>Membantumu berselancar dengan bebas dan tak ada habisnya!</i>
+
+<p align="center">
+
+<img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-black.svg#gh-light-mode-only" alt="BebasIT Black Logo" width="445">
+
+<img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-white.svg#gh-dark-mode-only" alt="BebasIT White Logo" width="445">
+
+</br>
+<i>Membantumu berselancar dengan bebas dan tak ada habisnya!</i>
+
 </p>
 
 <p align="center">
-    <a href="#"><img src="https://img.shields.io/static/v1?label=tahun%20diluncurkan:&message=2020&color=yellowgreen&style=plastic%22"></a></br>
-    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasit_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a></br>
-    <a href="https://github.com/bebasid/bebasit/blob/master/LICENSE"><img src="https://img.shields.io/badge/lisensi-MIT-green"></a>
-</p>
+
+<a href="#">
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasit&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=PENONTON+%5BHARI+INI+%2F+TOTAL%5D&edge_flat=true"/>
+</a>
 
 <br>
 
-<p align="center">
-<code>Server Komunitas:</code></br>
-<table align="center">
-<thead>
-<tr>
-<th><a href="https://discord.gg/bebasid-630415907021389825"><img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=flat&logo=discord&label=Join%20Discord&color=%234248f5"/></a></th>
-<th><a href="https://t.me/bebasidbykini"><img alt=""Join Telegram src="https://img.shields.io/badge/build-bebasidbykini-blue?logo=telegram&label=Join%20Telegram&link=https%3A%2F%2Ft.me%2Fbebasidbykini"/></a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Join Discord BEBASID"></a></td>
-<td><a href="https://t.me/bebasidbykini"><img src="https://raw.githubusercontent.com/bebasid/bebasid/150f487f9b9978e98e93dc1552908a71f31d4e38/dev/resources/bebasidbykini-join-telegram-group.png" height="340" alt="Join Grup Telegram BEBASID"></a></td>
-</tr>
-</tbody>
-</table>
-<table align="center">
-<thead>
-<tr>
-<th><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img alt="Join WhatsApp" src="https://img.shields.io/badge/build-bebasid-brightgreen?style=flat&logo=whatsapp&logoColor=%231bcc2f&label=Join%20WhatsApp&link=https%3A%2F%2Fchat.whatsapp.com%2FJmn5Uv4UYj0GdQooI1Jwbi"></th>
-</tr>
-</thead>
-<tbody>
-<td><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/bebasid-join-whatsapp-group.png?raw=true" height="340" alt="Join Grup WhatsApp BEBASID"></a></td>
-</tr>
-</tbody>
-</table>
-</p><br>
+<a href="LICENSE">
+    <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">
+</a>
 
-<p align="center"><code>Donasi Kami:</code></br>
-<table align="center">
-<thead>
-<tr>
-<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="Donasi BebasID Trakteer"></a></th>
-<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="Donasi BebasID Saweria"></a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="Donasi BebasID Trakteer" height="76" width="291"></a></td>
-<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Donasi BebasID Saweria" height="72" width="313"></a></td>
-</tr>
-</tbody>
-</table>
+<img alt="Static Badge" src="https://img.shields.io/badge/2020-white?style=for-the-badge&logo=fireship&logoColor=white&label=Diluncurkan&labelColor=222">
+
+<br>
+
+<a href="https://discord.gg/bebasid-630415907021389825">
+    <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=222&color=white">
+</a>
+
+<a href="https://t.me/bebasidbykini">
+    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
+</a>
+
+<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
+    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
+</a>
+
+<br>
+
+<a href="https://trakteer.id/bebasidbykini">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
+</a>
+
+<a href="https://saweria.co/bebasid">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
+</a>
+
 </p>
+
+<hr>
+
+<div align="center">
+
+### Pemberitahuan tentang DPI
+<details>
+<summary>Pencet untuk buka pemberitahuan</summary>
+
+Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan script BEBASID khusus perangkat router atau OS aplikasi program pihak ketiga untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
+
+Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
+
+**Ciri-ciri ISP menggunakan DPI:**
+| Protokol HTTP mengalihkan ke [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | Sedangkan Protokol HTTPS mengerluarkan ke `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
+|:-|:-|
+| <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/http-lamanlabuh-result.png" alt="HTTP Lamanlabuh Result"> | <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/https-connection-reset.png" alt="HTTPS Connection Reset Result"> |
+
+[Lihat penjelasan tentang DPI selengkapnya](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md).
+
+**Tutorial cara melewati/bypass DPI atau Lamanlabuh menggunakan Modem/Router atau di Sistem Operasi (OS):**
+
+**Modem/Router:**
+| <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="16"/> OpenWRT</a> | <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://i.imgur.com/DLGa8wW.png" width="16"/> MikroTik</a> |
+|:-|:-|
+
+**Sistem Operasi (OS):**
+| <a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
+|:-|:-|:-|
+
+</details>
+
+</div>
+
+<hr>
+
+<div align="center">
+
+## Sponsor
+
+*Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.*
+
+| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
+|-|
+| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
+| - |
+| <p align="center">[qdei.co](https://qdei.co)</p> |
+
+</div>
 
 ---
 
@@ -188,9 +164,9 @@ Berikut ini, ada 3 jenis daftar <b>sistem OS</b> yang sudah diuji dalam alat kem
 ### <b>Script:</b>
 Berikut ini, ada 2 jenis daftar <b>sistem Modem/Router</b> yang sudah diuji dalam alat kemampuan menembus DPI.
 ### <ins>OpenWRT</ins>
-Silahkan ajukan instruksi manual ke [OpenWRT](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md) untuk langkah-langkahannya.
+Silakan ajukan instruksi manual ke [OpenWRT](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md) untuk langkah-langkahannya.
 ### <ins>MikroTik</ins>
-Silahkan ajukan instruksi manual ke [MikroTik](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md) untuk langkah-langkahannya.
+Silakan ajukan instruksi manual ke [MikroTik](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md) untuk langkah-langkahannya.
 ## Catatan untuk Metode Alat Anti-DPI
 ### <b>OS Aplikasi:</b>
 ### <ins><a href=#windows>Windows</a>, <a href=#macos>macOS</a> dan <a href=#linux>Linux</a></ins>
@@ -218,7 +194,7 @@ Silahkan ajukan instruksi manual ke [MikroTik](https://github.com/bebasid/bebasi
 
 ### <ins>Cara Mengaplikasikan</ins>
 
-Silahkan ikuti panduan yang diberikan di bawah ini:
+Silakan ikuti panduan yang diberikan di bawah ini:
 
 | Sistem Operasi | Modem/Router | Mobile | Metode DNS | Alat DPI |
 | :---------: | :---------: |  :---------: |  :---------: | :---------: | 
@@ -234,11 +210,11 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 
 ### <ins>Cara Melaporkan atau Permintaan</ins>
 
-Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silahkan [membuka isu baru](https://github.com/bebasid/bebasit/issues/new/choose).
+Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka isu baru](https://github.com/bebasid/bebasit/issues/new/choose).
 
 ### <ins>Soal Sering Ditanya</ins>
 
-Jika mengalami permasalahan saat menggunakan [BebasIT / BebasID IT](#bebasit--bebasid-it), silahkan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu), atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasIT / BebasID IT: [Masalah/pertanyaan anda]**.
+Jika mengalami permasalahan saat menggunakan [BebasIT / BebasID IT](#bebasit--bebasid-it), silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu), atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasIT / BebasID IT: [Masalah/pertanyaan anda]**.
 
 ## Donasi Kami:
 
@@ -285,14 +261,10 @@ Untuk selengkapnya, lihat di [ATURAN-nya pada berikut](https://github.com/bebasi
 
 ---
 
-<p align="center">Terima kasih telah menggunakan layanan <a href="#bebasit--bebasid-it">BebasDNS / BebasID IT</a>.</br> Selamat meikmati kebebasan akses internet anda, selamanya!</br></br>Bagikan proyek kami!</br></br>
-    <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-ori-black.png#gh-light-mode-only" alt="bebasIT Black Logo" width="160">
-    <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-ori-white.png" alt="bebasIT White Logo" width="160">
-</p>
+<p align="center">Bagikan proyek ini</p>
 <div id="sosial">
  <p align="center">
-  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasit%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasit"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
-    </br>
-        </p>
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasit"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasit"><img src="https://img.shields.io/badge/Facebook-white?style=for-the-badge&logo=facebook&logoColor=black"/></a>
+ </p>
 </div>
