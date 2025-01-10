@@ -1,144 +1,118 @@
 <div align="center">
-    <code>Bahasa / Languages:</code></br></br>
-<table>
-  <tr>
-    <td valign="center"><a href="README.md"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b>Indonesia</b></td>
-    <td valign="center"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> <ins>English</ins></td>
-</table>
+
+#### Bahasa / Language
+| <img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> [Indonesia](README.md) | <img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> **English** |
+|-|-|
+
 </div>
 
-<div align="center">
-   
-   # Notice before using this project:
-<br></br>
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96"><br><br>
-    <b>For an ISP that uses <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.en.md">Deep Packet Inspection (DPI)</a>, use <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> to bypass the DPI or turn on version 6 of the Internet Protocol (IPv6) if the ISP supports it.</b>
-    <p><b>For Internet Service Provider (ISP) that uses <a href="https://www.jsn.net.id/">JSN</a> and blocks DoH/DoT domain, please contact us at <a href="mailto:dukungan@bebasid.com">dukungan[at]bebasid.com</a> for alternative domain to be able to use BebasID DNS service.</b></p><br>
-<br><b><code>Signs if the ISP is using DPI:</code></b></br></br>
-<table align="center">
-<thead>
-<tr>
-<th><b>HTTP</b> redirecting to <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code>.</th>
-<th>While <b>HTTPS</b> throwing the <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code>.</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/http-lamanlabuh-result.png" alt="HTTP Lamanlabuh Result"></td>
-<td><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/https-connection-reset.png" alt="HTTPS Connection Reset Result"></td>
-</tr>
-</tbody>
-</table>
-    <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">See the complete information about DPI</a>.
-    <br></br>
-<code>Tutorial how to bypass DPI or Lamanlabuh using <b>Modem/Router or in Operating System (OS)</b>:</b></i></code></br></br>
-        <b>> Modem/Router:</b></br>
-<table>
-  <tr>
-    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.en.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="24"/> OpenWRT</td>
-    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md"><img src="https://cdn.discordapp.com/attachments/381569782257811456/1147154206063611994/Sb0qyQ88hIP9IdDM.png" width="16"/> MikroTik</td>
-</table></br>
-      <b>> Operating System (OS)</b>:</br>
-<table>
-  <tr>
-    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="24"/> Windows</td>
-    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="24"/> MacOS</td>
-    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="24"/> Linux</td>
-</table></br>
-</div>
-<hr>
-<div align="center">
-    <b><code><a href=#bebasdns--bebasid-dns>BebasIT / BebasID IT</a> is sponsored by:</code></b><br><br>
-  <table align="center">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> 
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330" target="_blank" alt="Website Provider Atharva">
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330" target="_blank" alt="Website Provider Atharva">
-  </td>
-<td>    
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-atharva-cloud-black.png#gh-light-mode-only" width="330" target="_blank" alt="Website Provider Cloud Atharva">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-atharva-cloud-whitepng.png?raw=true#gh-dark-mode-only" width="330" target="_blank" alt="Website Provider Cloud Atharva">
-</td><tr>  
-   <th>https://www.atharva.co.id/</th>
-  <th>https://www.atharva.cloud/</th>
-</tr>
-</tbody>
-</table>
-    <i>A freedom oriented and neutral VPS provider for your need</i></br>
-    <m>Starting from <b>Rp. 50.000,00</b></m>.</br>
-    <a href="https://www.atharva.cloud/index.php?rp=/store/cloud-vm-lite">See the complete VPS packages</a>.
-</div>
-<hr>
-<p align="center"><code>KINI Introducing:</code></br></br>
-    <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-black.svg#gh-light-mode-only" alt="BebasIT Black Logo" width="445">
-    <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-white.svg#gh-dark-mode-only" alt="BebasIT White Logo" width="445"></br>
+<p align="center">
+
+<img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-black.svg#gh-light-mode-only" alt="BebasIT Black Logo" width="445">
+
+<img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-white.svg#gh-dark-mode-only" alt="BebasIT White Logo" width="445">
+
+</br>
 <i>Helping you surfing securely and without limit!</i>
+
 </p>
 
 <p align="center">
- <a href="#"><img src="https://img.shields.io/static/v1?label=year%20released:&message=2020&color=yellowgreen&style=plastic%22"></a></br>
-    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasit_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a></br>
-    <a href="https://github.com/bebasid/bebasit/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green"></a>
-</p>
+
+<a href="#">
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=TODAY+%5BWATCHERS+%2F+TOTAL%5D&edge_flat=true"/>
+</a>
 
 <br>
 
-<p align="center">
-<code>Community Server:</code></br>
-<table align="center">
-<thead>
-<tr>
-<th><a href="https://discord.gg/bebasid-630415907021389825"><img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=flat&logo=discord&label=Join%20Discord&color=%234248f5"/></a></th>
-<th><a href="https://t.me/bebasidbykini"><img alt=""Join Telegram src="https://img.shields.io/badge/build-bebasidbykini-blue?logo=telegram&label=Join%20Telegram&link=https%3A%2F%2Ft.me%2Fbebasidbykini"/></a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Join BEBASID Discord"></a></td>
-<td><a href="https://t.me/bebasidbykini"><img src="https://raw.githubusercontent.com/bebasid/bebasid/150f487f9b9978e98e93dc1552908a71f31d4e38/dev/resources/bebasidbykini-join-telegram-group.png" height="340" alt="Join BEBASID Telegram Group"></a></td>
-</tr>
-</tbody>
-</table>
-<table align="center">
-<thead>
-<tr>
-<th><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img alt="Join WhatsApp" src="https://img.shields.io/badge/build-bebasid-brightgreen?style=flat&logo=whatsapp&logoColor=%231bcc2f&label=Join%20WhatsApp&link=https%3A%2F%2Fchat.whatsapp.com%2FJmn5Uv4UYj0GdQooI1Jwbi"></th>
-</tr>
-</thead>
-<tbody>
-<td><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/bebasid-join-whatsapp-group.png?raw=true" height="340" alt="Join BEBASID WhatsApp Group"></a></td>
-</tr>
-</tbody>
-</table>
-</p><br>
+<a href="LICENSE">
+    <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=License&labelColor=222">
+</a>
 
-<p align="center"><code>Donate Us:</code></br>
-<table align="center">
-<thead>
-<tr>
-<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="BebasID Trakteer Donation"></a></th>
-<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="BebasID Saweria Donation"></a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="BebasID Trakteer Donation" height="76" width="291"></a></td>
-<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="BebasID Saweria Donation" height="72" width="313"></a></td>
-</tr>
-</tbody>
-</table>
+<img alt="Static Badge" src="https://img.shields.io/badge/2020-white?style=for-the-badge&logo=fireship&logoColor=white&label=Released&labelColor=222">
+
+<br>
+
+<a href="https://discord.gg/bebasid-630415907021389825">
+    <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=222&color=white">
+</a>
+
+<a href="https://t.me/bebasidbykini">
+    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
+</a>
+
+<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
+    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
+</a>
+
+<br>
+
+<a href="https://trakteer.id/bebasidbykini">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
+</a>
+
+<a href="https://saweria.co/bebasid">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
+</a>
+
 </p>
-        
----
 
-## Table of Content
+##
+
+<div align="center">
+
+### Notice Regarding DPI
+<details>
+<summary>Click to open the announcement</summary>
+
+### Plain DNS is only usable within allowlisted Indonesian and Singaporean IP range to prevent DDOS attack, if you need your IP address to be allowlisted or want to request a list of allowlisted IP, please contact us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
+
+#
+
+For Internet Service Provider (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI. Or by using Internet Protocol version 6 (IPv6), to force the DNS to use it if the ISP supported it.
+
+For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for alternative domain to be able to use BebasID DNS service.
+
+**Signs if the ISP is using DPI:**
+| HTTP redirecting to [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | While HTTPS throwing the `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
+|:-|:-|
+| <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/http-lamanlabuh-result.png" alt="HTTP Lamanlabuh Result"> | <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/https-connection-reset.png" alt="HTTPS Connection Reset Result"> |
+
+[See the complete information about DPI](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md).
+
+**Tutorial how to bypass DPI or Lamanlabuh using Modem/Router or in Operating System (OS):**
+
+**Modem/Router:**
+| <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="16"/> OpenWRT</a> | <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://i.imgur.com/DLGa8wW.png" width="16"/> MikroTik</a> |
+|:-|:-|
+
+**Operating System (OS):**
+| <a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
+|:-|:-|:-|
+
+</details>
+
+</div>
+
+<div align="center">
+
+## Sponsor
+
+*A freedom oriented and neutral VPS provider for your need.*
+
+| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
+|-|
+| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+
+<!--
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
+| - |
+| <p align="center">[qdei.co](https://qdei.co)</p> |
+//-->
+
+</div>
+
+## Table of Content:
 
 - [BebasIT / BebasID IT](#bebasit--bebasid-it)
   - [Anti-DPI Tools and Methods](#anti-dpi-tools-and-methods)
@@ -165,7 +139,6 @@
   + [License](#license)
   + [Terms and Conditions](#terms-and-conditions)
 
----
 
 ## BebasIT / BebasID IT
 <a href=#bebasit--bebasid-it>BebasIT / BebasID IT</a> is derivative repo of <a href="https://github.com/bebasid/bebasid">BebasID</a> containing <b>third-party application for OS system</b> or <b>Modem/Router Script</b> for bypassing <b><i>Deep Packet Inspection (DPI)</i></b>.
@@ -174,14 +147,14 @@
 There are 3 <b>Operating System</b> that already tested for DPI bypass capabilities.
 ### <ins>Windows</ins>
 - [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI/releases)
-- [GreenTunnel (NodeJS + NPM)](https://github.com/SadeghHayeri/GreenTunnel/releases) 
-- [PowerTunnel (JRE)](https://github.com/krlvm/PowerTunnel/releases) 
+- [GreenTunnel (NodeJS + NPM)](https://github.com/SadeghHayeri/GreenTunnel/releases)
+- [PowerTunnel (JRE)](https://github.com/krlvm/PowerTunnel/releases)
 ### <ins>macOS</ins>
-- [GreenTunnel (NodeJS + NPM)](https://github.com/SadeghHayeri/GreenTunnel/releases) 
-- [PowerTunnel (JRE)](https://github.com/krlvm/PowerTunnel/releases) 
+- [GreenTunnel (NodeJS + NPM)](https://github.com/SadeghHayeri/GreenTunnel/releases)
+- [PowerTunnel (JRE)](https://github.com/krlvm/PowerTunnel/releases)
 ### <ins>Linux</ins>
-- [GreenTunnel (NodeJS + NPM)](https://github.com/SadeghHayeri/GreenTunnel/releases) 
-- [PowerTunnel (JRE)](https://github.com/krlvm/PowerTunnel/releases) 
+- [GreenTunnel (NodeJS + NPM)](https://github.com/SadeghHayeri/GreenTunnel/releases)
+- [PowerTunnel (JRE)](https://github.com/krlvm/PowerTunnel/releases)
 - <a href="https://github.com/bol-van/zapret/blob/master/install_easy.sh">Zapret</a> <i>(Currently still under testing.)</i>
 - <a href="https://github.com/Kkevsterrr/geneva">Geneva</a> <i>(Hard Method)</i>
 ### <b>Script:</b>
@@ -220,7 +193,7 @@ Please refer to manual instruction [MikroTik](https://github.com/bebasid/bebasit
 Please follow these tutorials:
 
 | Operating System | Modem/Router | Mobile | DNS Method | DPI Tool |
-| :---------: | :---------: |  :---------: |  :---------: | :---------: | 
+| :---------: | :---------: |  :---------: |  :---------: | :---------: |
 | [Microsoft Windows 11](https://github.com/bebasid/bebasdns/blob/main/dev/readme/windows11.md) | [MikroTik](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#mikrotik) | [Android](https://github.com/bebasid/bebasdns/blob/main/dev/readme/android.md) | [Plain DNS (Alternative Port)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.en.md#how-to-use-alternative-port) | [GoodbyeDPI](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.en.md#goodbyedpi) |
 | [Apple macOS](https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11) | [OpenWRT](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.en.md) | [iOS](https://github.com/bebasid/bebasdns/blob/main/dev/readme/ios.md) | [DNS-over-HTTPS](<https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH)>) | [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel?tab=readme-ov-file#how-to-use) |
 |  |  |  | [DNS-over-TLS](<https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT)>) | [PowerTunnel](https://github.com/krlvm/PowerTunnel/wiki/Installation) |
@@ -252,45 +225,41 @@ Help this project to ensure that [BebasDNS / BebasID DNS](https://github.com/beb
 <table align="center">
 <thead>
 <tr>
-<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="BebasID Trakteer Donation"></a></th>
-<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="BebasID Saweria Donation"></a></th>
+<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="Donasi BebasID Trakteer"></a></th>
+<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="Donasi BebasID Saweria"></a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="BebasID Trakteer Donation" height="76" width="291"></a></td>
-<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="BebasID Saweria Donation" height="72" width="313"></a></td>
+<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="Donasi BebasID Trakteer" height="76" width="291"></a></td>
+<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Donasi BebasID Saweria" height="72" width="313"></a></td>
 </tr>
 </tbody>
 </table>
- 
+
 </details>
 </div>
 
 ## License:
 
-[BebasIT / BebasID IT](#bebasit--bebasid-it) is licensed under [MPL-2.0 License](https://github.com/bebasid/bebasit/blob/master/LICENSE).
+[BebasIT / BebasID IT](#bebasit--bebasid-it) is licensed under [MPL-2.0 License](https://github.com/bebasid/bebasdns/blob/main/LICENSE)
 
-## Honorable Mention:
+## Honorable Mentions:
 
 Dan008, Fulk, farhanadji, nauli, bobbyargaa, sheenidgs, KAREEEN!
 
-# Terms and Conditions:
+## Terms and Conditions:
 
 By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
 
-For more information about the rules, you can see them on the page [RULES here](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md).
+For more information about the rules, see them on the [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES.
 
 ---
 
-<p align="center">Thank you for using <a href="#bebasit--bebasid-it">BebasIT / BebasID IT</a> service.</br> Enjoy your internet access freedom, forever!</br></br>Share our project!</br></br>
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo-black.png#gh-light-mode-only" alt="bebasIT Black Logo" width="160">
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo.png#gh-dark-mode-only" alt="bebasIT White Logo" width="160">
-</p>
+<p align="center">Share this project!</p>
 <div id="sosial">
  <p align="center">
-  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasit%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasit"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
-    </br>
-        </p>
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/Facebook-white?style=for-the-badge&logo=facebook&logoColor=black"/></a>
+ </p>
 </div>
