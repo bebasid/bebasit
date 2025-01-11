@@ -252,7 +252,7 @@ Dan008, Fulk, farhanadji, nauli, bobbyargaa, sheenidgs, KAREEEN!
 
 By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
 
-For more information about the rules, see them on the [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES.
+For more information about the rules, see them on the [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES).
 
 ---
 
