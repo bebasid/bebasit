@@ -20,10 +20,12 @@
 <p align="center">
 
 <a href="#">
+<!--
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasit&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=PENONTON+%5BHARI+INI+%2F+TOTAL%5D&edge_flat=true"/>
 </a>
 
 <br>
+//-->
 
 <a href="LICENSE">
     <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">
@@ -96,7 +98,7 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 
 *Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.*
 
-| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
+| <a href="https://atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
 |-|
 | <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
 
