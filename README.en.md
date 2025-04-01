@@ -169,7 +169,7 @@ Please refer to manual instruction [MikroTik](https://github.com/bebasid/bebasit
 ## Note for Anti-DPI Tools and Methods
 ### <b>OS Application:</b>
 ### <ins><a href=#windows>Windows</a>, <a href=#macos>macOS</a> and <a href=#linux>Linux</a></ins>
-- Not all versions of Windows will work with GoodbyeDPI. For example, Windows 7 without any updates and older Windows need **KBxxxxxx**.
+- Not all versions of Windows will work with GoodbyeDPI. For example, Windows 7 does not have any updates, and older Windows needs **KBxxxxxx**.
 - GreenTunnel/PowerTunnel depends on **"luck"** to bypass DPI (does not mean that GreenTunnel/PowerTunnel cannot bypass DPI).
 - Zapret does not include <b>DoH</b> within <b><code>tpws</code></b>.
 - Geneva is considered a hard method due to manual installation.
