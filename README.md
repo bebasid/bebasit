@@ -67,6 +67,10 @@
 <details>
 <summary>Pencet untuk buka pemberitahuan</summary>
 
+### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDOS, untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Discord](https://discord.gg/bebasid-630415907021389825) kami.
+
+#
+
 Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan script BEBASID khusus perangkat router atau OS aplikasi program pihak ketiga untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
 
 Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
