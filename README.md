@@ -139,6 +139,7 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
     - [Soal Sering Ditanya](#soal-sering-ditanya)
   + [Donasi Kami](#donasi-kami)
   + [Lisensi](#lisensi)
+  + [Penghargaan Terhormat](#penghargaan-terhormat)
   + [Syarat dan Ketentuan](#syarat-dan-ketentuan)
 
 ## BebasIT / BebasID IT
@@ -246,7 +247,7 @@ Bantu proyek ini agar VPS [BebasDNS / BebasID DNS](https://github.com/bebasid/be
 
 [BebasIT / BebasID IT](#bebasit--bebasid-it) telah lisensikan dibawah [Lisensi MIT](https://github.com/bebasid/bebasit/blob/master/LICENSE) tersebut.
 
-## Honorable Mention:
+## Penghargaan Terhormat:
 
 Dan008, Fulk, farhanadji, nauli, bobbyargaa, sheenidgs, KAREEEN!
 
