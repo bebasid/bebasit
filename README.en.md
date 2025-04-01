@@ -13,17 +13,19 @@
 <img src="https://github.com/bebasid/bebasit/blob/master/dev/resources/logo/bebasit-white.svg#gh-dark-mode-only" alt="BebasIT White Logo" width="445">
 
 </br>
-<i>Helping you surfing securely and without limit!</i>
+<i>Helping you surf securely and without limit!</i>
 
 </p>
 
 <p align="center">
 
 <a href="#">
+<!--
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=WATCHERS+%5BTODAY+%2F+TOTAL%5D&edge_flat=true"/>
 </a>
 
 <br>
+//-->
 
 <a href="LICENSE">
     <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=License&labelColor=222">
@@ -65,13 +67,13 @@
 <details>
 <summary>Click to open the announcement</summary>
 
-### Plain DNS is only usable within allowlisted Indonesian and Singaporean IP range to prevent DDOS attack, if you need your IP address to be allowlisted or want to request a list of allowlisted IP, please contact us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
+### Plain DNS is only usable within the allow-listed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allowed to be listed or want to request a list of allow-listed IPs, please contact us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
 
 #
 
-For Internet Service Provider (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI. Or by using Internet Protocol version 6 (IPv6), to force the DNS to use it if the ISP supported it.
+For Internet Service Providers (ISPs) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI. You can also force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
 
-For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for alternative domain to be able to use BebasID DNS service.
+For Internet Service Providers (ISP) that block DoH/DoT domains, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain to be able to use BebasID DNS service.
 
 **Signs if the ISP is using DPI:**
 | HTTP redirecting to [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | While HTTPS throwing the `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -80,14 +82,14 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
 
 [See the complete information about DPI](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md).
 
-**Tutorial how to bypass DPI or Lamanlabuh using Modem/Router or in Operating System (OS):**
+**Tutorial on how to bypass DPI or Lamanlabuh using a Modem/Router or in an Operating System (OS):**
 
 **Modem/Router:**
 | <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="16"/> OpenWRT</a> | <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://i.imgur.com/DLGa8wW.png" width="16"/> MikroTik</a> |
 |:-|:-|
 
 **Operating System (OS):**
-| <a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
+| <a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/windows-11-icon-logo-png_seeklogo-406208.png?raw=true" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
 |:-|:-|:-|
 
 </details>
@@ -98,11 +100,11 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
 
 ## Sponsor
 
-*A freedom oriented and neutral VPS provider for your need.*
+*A freedom-oriented and neutral VPS provider for your needs.*
 
-| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
+| <a href="https://member.atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
 |-|
-| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+| <p align="center">[atharva.co.id](https://member.atharva.co.id)</p> |
 
 <!--
 | <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
@@ -125,7 +127,7 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
         - [MikroTik](#mikrotik)
   - [Note for Anti-DPI Tools and Methods](#note-for-anti-dpi-tools-and-methods)
     + [OS Application](#os-application)
-      - [Windows, macOS and Linux](#windows-macos-and-linux)
+      - [Windows, macOS, and Linux](#windows-macos-and-linux)
     + [Modem/Router Script](#modemrouter-script)
       - [OpenWRT and MikroTik](#openwrt-and-mikrotik)
   - [Additional Note for Anti-DPI Tools and Methods](#additional-note-for-anti-dpi-tools-and-methods)
@@ -137,6 +139,7 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
     - [Frequently Asked Questions](#frequently-asked-questions)
   + [Donate Us](#donate-us)
   + [License](#license)
+  + [Honorable Mentions](#honorable-mentions)
   + [Terms and Conditions](#terms-and-conditions)
 
 
@@ -144,7 +147,7 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
 <a href=#bebasit--bebasid-it>BebasIT / BebasID IT</a> is derivative repo of <a href="https://github.com/bebasid/bebasid">BebasID</a> containing <b>third-party application for OS system</b> or <b>Modem/Router Script</b> for bypassing <b><i>Deep Packet Inspection (DPI)</i></b>.
 ### <ins>Anti-DPI Tools and Methods</ins>
 ### <b>Application:</b>
-There are 3 <b>Operating System</b> that already tested for DPI bypass capabilities.
+There are 3 <b>Operating System</b> that have already been tested for DPI bypass capabilities.
 ### <ins>Windows</ins>
 - [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI/releases)
 - [GreenTunnel (NodeJS + NPM)](https://github.com/SadeghHayeri/GreenTunnel/releases)
@@ -158,7 +161,7 @@ There are 3 <b>Operating System</b> that already tested for DPI bypass capabilit
 - <a href="https://github.com/bol-van/zapret/blob/master/install_easy.sh">Zapret</a> <i>(Currently still under testing.)</i>
 - <a href="https://github.com/Kkevsterrr/geneva">Geneva</a> <i>(Hard Method)</i>
 ### <b>Script:</b>
-There are 2 <b>Modem/Router system</b> that already tested for DPI bypass capabilities.
+There are 2 <b>Modem/Router systems </b> that have already been tested for DPI bypass capabilities.
 ### <ins>OpenWRT</ins>
 Please refer to manual instruction [OpenWRT](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md) for further steps.
 ### <ins>MikroTik</ins>
@@ -166,21 +169,21 @@ Please refer to manual instruction [MikroTik](https://github.com/bebasid/bebasit
 ## Note for Anti-DPI Tools and Methods
 ### <b>OS Application:</b>
 ### <ins><a href=#windows>Windows</a>, <a href=#macos>macOS</a> and <a href=#linux>Linux</a></ins>
-- Not all versions of Windows will work with GoodbyeDPI, for example, Windows 7 without any updates and older Windows need **KBxxxxxx**.
+- Not all versions of Windows will work with GoodbyeDPI. For example, Windows 7 without any updates and older Windows need **KBxxxxxx**.
 - GreenTunnel/PowerTunnel depends on **"luck"** to bypass DPI (does not mean that GreenTunnel/PowerTunnel cannot bypass DPI).
 - Zapret does not include <b>DoH</b> within <b><code>tpws</code></b>.
-- Geneva is considered as hard method due to manual installation.
+- Geneva is considered a hard method due to manual installation.
 ### <b>Modem/Router Script:</b>
 ### <ins><a href=#openwrt>OpenWRT</a> and <a href=#mikrotik>MikroTik</a></ins>
-- Script depends on **"Luck"** to bypass DPI (does not mean that OpenWRT and MikroTik cannot bypass DPI).
+- The script depends on **"Luck"** to bypass DPI (which does not mean that OpenWRT and MikroTik cannot bypass DPI).
 ### Additional Note for Anti-DPI Tools and Methods:
-- For [OS Application](#os-application) in this repo, does not use an auto-update scheme to the latest version because a new feature of the application might not be useful.
-- For [Modem/Router Script](#script-modemrouter) in this repo, it uses auto-update scheme to latest version.
+- For [OS Application](#os-application) in this repo, do not use an auto-update scheme to the latest version because a new application feature might not be useful.
+- For [Modem/Router Script](#script-modemrouter) in this repo, an auto-update scheme is used for the latest version.
 ### Why <a href="https://github.com/bebasid/bebasid/">BebasID</a> and <a href=#bebasit--bebasid-it>BebasIT / BebasID IT</a> are separate?
 - Easing control of application suitability.
-- If applications like GoodbyeDPI, Green Tunnel, PowerTunnel, Zapret, and Geneva are included within the bebasid repo, it would consume more data. In many cases, people use the `git clone` command when downloading bebasid and it caused the Mac or Linux version of the app to be downloaded as well in Windows.
+- If applications like GoodbyeDPI, Green Tunnel, PowerTunnel, Zapret, and Geneva are included within the bebasid repo, more data would be consumed. In many cases, people use the `git clone` command when downloading bebasid, which causes the Mac or Linux version of the app to be downloaded as well in Windows.
 - New project.
-- To make BebasID looks more formal.
+- To make BebasID look more formal.
 ### BebasIT / BebasID IT <ins><a href="">Dependencies</a></ins>
 - [ValdikSS's GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
 - [SadeghHayeri's GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel/)
@@ -210,7 +213,7 @@ If you have any requests or bug reports, please [open a new issue](https://githu
 
 ### <ins>Frequently Asked Questions</ins>
 
-If you have any problems using [BebasIT / BebasID IT](#bebasit--bebasid-it), please head to [Discord](https://discord.gg/EKrxZyu) or send email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasIT: [Your problem/question]**
+If you have any problems using [BebasIT / BebasID IT](#bebasit--bebasid-it), please head to [Discord](https://discord.gg/EKrxZyu) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasIT: [Your problem/question]**.
 
 ## Donate us:
 
@@ -242,7 +245,7 @@ Help this project to ensure that [BebasDNS / BebasID DNS](https://github.com/beb
 
 ## License:
 
-[BebasIT / BebasID IT](#bebasit--bebasid-it) is licensed under [MPL-2.0 License](https://github.com/bebasid/bebasdns/blob/main/LICENSE)
+[BebasIT / BebasID IT](#bebasit--bebasid-it) is licensed under [MIT License](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
 ## Honorable Mentions:
 
@@ -250,7 +253,7 @@ Dan008, Fulk, farhanadji, nauli, bobbyargaa, sheenidgs, KAREEEN!
 
 ## Terms and Conditions:
 
-By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
+By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made, and you accept all the consequences that may arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
 
 For more information about the rules, see them on the [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES).
 
