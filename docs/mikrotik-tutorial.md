@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/115700386/234646779-cf6c4264-4e8d-4aba-aa19-40f088b3e825.png#gh-light-mode-only" width="300px" height="80px">
+  <img src="https://github.com/user-attachments/assets/c38661fb-cfc7-42d8-b684-976ba6bef71a#gh-light-mode-only" width="300px" height="80px">
   <img src="https://github.com/bebasid/bebasit/assets/115700386/2a92dfdf-479e-47bc-a063-3e5b61fed001#gh-dark-mode-only" width="300px" height="80px">
 </p>
 
