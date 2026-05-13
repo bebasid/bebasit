@@ -71,13 +71,13 @@
 <details>
 <summary>Pencet untuk buka pemberitahuan</summary>
 
-### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDOS, untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Discord](https://discord.gg/bebasid-630415907021389825) kami.
+### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDoS. Untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Discord](https://discord.gg/bebasid-630415907021389825) kami.
 
 #
 
-Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan script BEBASID khusus perangkat router atau OS aplikasi program pihak ketiga untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
+Untuk Wi-Fi/provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan skrip BEBASID khusus perangkat router atau program pihak ketiga untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya terpaksa jika ISP-nya sudah mendukung.
 
-Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
+Bagi provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
 
 **Ciri-ciri ISP menggunakan DPI:**
 | Protokol HTTP mengalihkan ke [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | Sedangkan Protokol HTTPS mengerluarkan ke `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -143,7 +143,7 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
   + [Isi Bertanya](#isi-bertanya)
     - [Cara Melaporkan atau Permintaan](#cara-melaporkan-atau-permintaan)
     - [Soal Sering Ditanya](#soal-sering-ditanya)
-  + [Donasi Kami](#donasi-kami)
+<!--  + [Donasi Kami](#donasi-kami)-->
   + [Lisensi](#lisensi)
   + [Penghargaan Terhormat](#penghargaan-terhormat)
   + [Syarat dan Ketentuan](#syarat-dan-ketentuan)
@@ -175,19 +175,19 @@ Silakan ajukan instruksi manual ke [MikroTik](https://github.com/bebasid/bebasit
 ## Catatan untuk Metode Alat Anti-DPI
 ### <b>OS Aplikasi:</b>
 ### <ins><a href=#windows>Windows</a>, <a href=#macos>macOS</a> dan <a href=#linux>Linux</a></ins>
-- GoodbyeDPI untuk Windows tidak semua versi OS Windows berfungsi, Windows 7 dan dibawah yang belum pernah diperbarui ada permasalahan, yaitu meminta pembaruan **KBxxxxxx**.
-- GreenTunnel/PowerTunnel adanya **"hoki-hokian"** dalam menembus DPI (bukan berarti GreenTunnel/PowerTunnel tidak dapat menembus bypass DPI).
+- GoodbyeDPI untuk Windows tidak semua versi OS Windows berfungsi. Pada Windows 7 dan di bawah yang belum pernah diperbarui, ada permasalahan, yaitu meminta pembaruan **KBxxxxxx**.
+- GreenTunnel/PowerTunnel memiliki **"hoki-hokian"** dalam menembus DPI (bukan berarti GreenTunnel/PowerTunnel tidak dapat menembus bypass DPI).
 - Zapret tidak memasukkan <b>DoH</b> dalam <b><code>tpws</code></b>.
-- Geneva termasuk metode susah sebab instalasi nya harus menggunakan lewat manual.
+- Geneva termasuk metode yang susah sebab instalasinya harus dilakukan secara manual.
 ### <b>Script Modem/Router:</b>
 ### <ins><a href=#openwrt>OpenWRT</a> dan <a href=#mikrotik>MikroTik</a></ins>
-- Script itu adanya **"hoki-hokian"** dalam menembus DPI (bukan berarti OpenWRT dan MikroTik tidak dapat menembus bypass DPI).
+- Script itu ada **"hoki-hokian"** dalam menembus DPI (bukan berarti OpenWRT dan MikroTik tidak dapat menembus bypass DPI).
 ### Catatan Tambahan untuk Metode Alat Anti-DPI:
 - Untuk [OS Aplikasi](#os-aplikasi) di repo ini tidak menggunakan skema pembaruan otomatis ke versi terbaru dengan alasan bahwa mungkin ada fitur terbaru dari aplikasi yang memang tidak diperlukan.
 - Untuk [Script Modem/Router](#script-modemrouter) di repo ini menggunakan skema pembaruan otomatis ke versi terbaru.
 ### Mengapa dipisah antara <a href="https://github.com/bebasid/bebasid/">BebasID</a> dengan <a href=#bebasit--bebasid-it>BebasIT / BebasID IT</a>?
 - Memudahkan pengontrolan kesesuaian aplikasi.
-- Jika aplikasi seperti GoodbyeDPI, GreenTunnel, PowerTunnel, Zapret, dan Geneva diletakkan ke repo BebasID, akan terjadi pemborosan data. Seringkali orang menggunakan perintah `git clone` dalam mengunduh BebasID sehingga aplikasi yang semestinya dipasang di macOS atau Linux ikut terunduh di Windows.
+- Jika aplikasi seperti GoodbyeDPI, GreenTunnel, PowerTunnel, Zapret, dan Geneva diletakkan ke repo BebasID, akan terjadi pemborosan data. Sering kali orang menggunakan perintah `git clone` dalam mengunduh BebasID sehingga aplikasi yang semestinya dipasang di macOS atau Linux ikut terunduh di Windows.
 - Ada proyek baru.
 - Agar BebasID lebih terlihat formal.
 ### <ins>Ketergantungan <a href="">BebasIT / BebasID IT</a></ins>
@@ -219,8 +219,9 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka 
 
 ### <ins>Soal Sering Ditanya</ins>
 
-Jika mengalami permasalahan saat menggunakan [BebasIT / BebasID IT](#bebasit--bebasid-it), silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu), atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasIT / BebasID IT: [Masalah/pertanyaan anda]**.
+Jika mengalami permasalahan saat menggunakan [BebasIT / BebasID IT](#bebasit--bebasid-it), silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu) atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasIT / BebasID IT: [Masalah/pertanyaan Anda]**.
 
+<!--
 ## Donasi Kami:
 
 Bantu proyek ini agar VPS [BebasDNS / BebasID DNS](https://github.com/bebasid/bebasdns/), [BebasID](https://github.com/bebasid/bebasid/), dan [BebasIT / BebasID IT](#bebasit--bebasid-it) ini tetap berjalan dengan cara berdonasi.
@@ -248,10 +249,11 @@ Bantu proyek ini agar VPS [BebasDNS / BebasID DNS](https://github.com/bebasid/be
  
 </details>
 </div>
+//-->
 
 ## Lisensi:
 
-[BebasIT / BebasID IT](#bebasit--bebasid-it) telah lisensikan dibawah [Lisensi MIT](https://github.com/bebasid/bebasit/blob/master/LICENSE) tersebut.
+[BebasIT / BebasID IT](#bebasit--bebasid-it) telah berlisensi di bawah [Lisensi MIT](https://github.com/bebasid/bebasit/blob/master/LICENSE) tersebut.
 
 ## Penghargaan Terhormat:
 
@@ -260,16 +262,16 @@ Dan008, Fulk, farhanadji, nauli, bobbyargaa, sheenidgs, KAREEEN!
 
 ## Syarat dan Ketentuan:
 
-Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan.
+Dengan menggunakan layanan ini, Anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan.
 
-Untuk selengkapnya, lihat di [ATURAN-nya pada berikut](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md).
+Untuk selengkapnya, lihat [ATURAN-nya berikut](https://github.com/bebasid/bebasit/blob/master/dev/readme/RULES.md).
 
 ---
 
 <p align="center">Bagikan proyek ini!</p>
 <div id="sosial">
  <p align="center">
-  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasit"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>
+  <a f="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasit"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasit"><img src="https://img.shields.io/badge/Facebook-white?style=for-the-badge&logo=facebook&logoColor=black"/></a>
  </p>
 </div>
