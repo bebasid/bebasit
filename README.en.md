@@ -1,5 +1,9 @@
 <div align="center">
 
+#### BEBASID Menu
+| [BEBAS🕊️ID](https://github.com/bebasid/bebasid/blob/main/README.en.md) | [BEBAS🕊️DNS](https://github.com/bebasid/bebasdns/blob/main/README.en.md) | **BEBAS🕊️IT** | [K🕊️minFudge](https://github.com/bebasid/KominFudge/blob/main/README.en.md) |
+|-|-|-|-|
+
 #### Bahasa / Language
 | <img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> [Indonesia](README.md) | <img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> **English** |
 |-|-|
@@ -67,13 +71,13 @@
 <details>
 <summary>Click to open the announcement</summary>
 
-### Plain DNS is only usable within the allow-listed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allowed to be listed or want to request a list of allow-listed IPs, please contact us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
+### Plain DNS is only usable within the allowed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allowed to be listed or want to request a list of allow-listed IPs, please contact us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
 
 #
 
 For Internet Service Providers (ISPs) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI or turn on IPv6 and force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
 
-For Internet Service Providers (ISP) that block DoH/DoT domains, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain to be able to use BebasID DNS service.
+For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain to be able to use the BebasID DNS service.
 
 **Signs if the ISP is using DPI:**
 | HTTP redirecting to [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | While HTTPS throwing the `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -98,13 +102,15 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please contact 
 
 <div align="center">
 
+<!--
 ## Sponsor
 
 *A freedom-oriented and neutral VPS provider for your needs.*
 
-| <a href="https://member.atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
-|-|
-| <p align="center">[atharva.co.id](https://member.atharva.co.id)</p> |
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75)</a> | <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/assets/atharva-logo-white-jdBmQylO.png" width="380"></a> |
+| - | - |
+| <p align="center">[qdei.co](https://qdei.co)</p> | <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+//-->
 
 <!--
 | <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
@@ -114,7 +120,7 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please contact 
 
 </div>
 
-## Table of Content:
+## Table of Contents
 
 - [BebasIT / BebasID IT](#bebasit--bebasid-it)
   - [Anti-DPI Tools and Methods](#anti-dpi-tools-and-methods)
@@ -147,7 +153,7 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please contact 
 <a href=#bebasit--bebasid-it>BebasIT / BebasID IT</a> is derivative repo of <a href="https://github.com/bebasid/bebasid">BebasID</a> containing <b>third-party application for OS system</b> or <b>Modem/Router Script</b> for bypassing <b><i>Deep Packet Inspection (DPI)</i></b>.
 ### <ins>Anti-DPI Tools and Methods</ins>
 ### <b>Application:</b>
-There are 3 <b>Operating System</b> that have already been tested for DPI bypass capabilities.
+There are 3 <b>Operating Systems </b> that have already been tested for DPI bypass capabilities.
 ### <ins>Windows</ins>
 - [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI/releases)
 - [GreenTunnel (NodeJS + NPM)](https://github.com/SadeghHayeri/GreenTunnel/releases)
@@ -163,9 +169,9 @@ There are 3 <b>Operating System</b> that have already been tested for DPI bypass
 ### <b>Script:</b>
 There are 2 <b>Modem/Router systems </b> that have already been tested for DPI bypass capabilities.
 ### <ins>OpenWRT</ins>
-Please refer to manual instruction [OpenWRT](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md) for further steps.
+Please refer to the manual instruction [OpenWRT](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md) for further steps.
 ### <ins>MikroTik</ins>
-Please refer to manual instruction [MikroTik](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md) for further steps.
+Please refer to the manual instruction [MikroTik](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md) for further steps.
 ## Note for Anti-DPI Tools and Methods
 ### <b>OS Application:</b>
 ### <ins><a href=#windows>Windows</a>, <a href=#macos>macOS</a> and <a href=#linux>Linux</a></ins>
@@ -215,6 +221,7 @@ If you have any requests or bug reports, please [open a new issue](https://githu
 
 If you have any problems using [BebasIT / BebasID IT](#bebasit--bebasid-it), please head to [Discord](https://discord.gg/EKrxZyu) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasIT: [Your problem/question]**.
 
+<!--
 ## Donate us:
 
 Help this project to ensure that [BebasDNS / BebasID DNS](https://github.com/bebasid/bebasdns/), [BebasID](https://github.com/bebasid/bebasid/), and [BebasIT / BebasID IT](#bebasit--bebasid-it) keep running by donating.
@@ -242,16 +249,17 @@ Help this project to ensure that [BebasDNS / BebasID DNS](https://github.com/beb
 
 </details>
 </div>
+//-->
 
-## License:
+## License
 
 [BebasIT / BebasID IT](#bebasit--bebasid-it) is licensed under [MIT License](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
-## Honorable Mentions:
+## Honorable Mentions
 
 Dan008, Fulk, farhanadji, nauli, bobbyargaa, sheenidgs, KAREEEN!
 
-## Terms and Conditions:
+## Terms and Conditions
 
 By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made, and you accept all the consequences that may arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
 
