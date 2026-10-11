@@ -47,10 +47,6 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
 </a>
 
-<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
-    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
-</a>
-
 <br>
 
 <a href="https://trakteer.id/bebasidbykini">
@@ -71,7 +67,7 @@
 <details>
 <summary>Click to open the announcement</summary>
 
-### Plain DNS is only usable within the allowed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allowed to be listed or want to request a list of allow-listed IPs, please contact us or join our [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi).
+### Plain DNS is only usable within the allowed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allowed to be listed or want to request a list of allow-listed IPs, please contact us or join our [Discord Server](https://discord.gg/bebasid-630415907021389825) or [Telegram Group](https://t.me/bebasidbykini).
 
 #
 
@@ -218,7 +214,7 @@ If you have any requests or bug reports, please [open a new issue](https://githu
 
 ### <ins>Frequently Asked Questions</ins>
 
-If you have any problems using [BebasIT / BebasID IT](#bebasit--bebasid-it), please head to [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) / [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasIT: [Your problem/question]**.
+If you have any problems using [BebasIT / BebasID IT](#bebasit--bebasid-it), please head to [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasIT: [Your problem/question]**.
 
 <!--
 ## Donate us:

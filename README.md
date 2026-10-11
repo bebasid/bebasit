@@ -47,10 +47,6 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
 </a>
 
-<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
-    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
-</a>
-
 <br>
 
 <a href="https://trakteer.id/bebasidbykini">
@@ -71,7 +67,7 @@
 <details>
 <summary>Pencet untuk buka pemberitahuan</summary>
 
-### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDoS. Untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) atau [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) kami.
+### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDoS. Untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Server Discord](https://discord.gg/bebasid-630415907021389825) atau [Grup Telegram](https://t.me/bebasidbykini) kami.
 
 #
 
@@ -219,7 +215,7 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka 
 
 ### <ins>Soal Sering Ditanya</ins>
 
-Jika mengalami permasalahan saat menggunakan [BebasIT / BebasID IT](#bebasit--bebasid-it), silakan lanjut menanyakannya di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) / [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasIT / BebasID IT: [Masalah/pertanyaan Anda]**.
+Jika mengalami permasalahan saat menggunakan [BebasIT / BebasID IT](#bebasit--bebasid-it), silakan lanjut menanyakannya di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasIT / BebasID IT: [Masalah/pertanyaan Anda]**.
 
 <!--
 ## Donasi Kami:
